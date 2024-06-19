@@ -18,7 +18,3 @@ theme_gtsummary_mean_sd()
 # print("===============================")
 # sessioninfo::session_info()
 # git2r::repository() # must be a git repository
-
-
-
-
