@@ -7,7 +7,7 @@ sigmdo <- function(wc_algeria,df) {
     dplyr::mutate(CC_2=as.character(CC_2))
 
   mdo_c_djelfa <- dplyr::left_join(wc_algeria, br, by='CC_2')
-  library(viridis)
+  #library(viridis) a activer avec viridis
   cdjelfamdo <- mdo_c_djelfa %>%
     dplyr::filter(NAME_1=="Djelfa") %>%
     dplyr::select(NAME_1,NAME_2,CC_2,nbr) #%>% mutate(nbr = log(nbr))

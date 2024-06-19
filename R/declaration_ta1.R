@@ -1,4 +1,4 @@
-tranche_age <- function(DF,TO,BY){
+declaration_ta1 <- function(DF,TO,BY){
 
   data <- DF %>% dplyr::select(AGE,SEXE)
   textlab<-c()

@@ -1,4 +1,5 @@
-decpta <- function(DF) {
+declaration_ta <- function(DF) {
+
   mdota <- DF %>% dplyr::select(AGE,SEXE) %>%
     dplyr::mutate(AGE = dplyr::coalesce(AGE, 0)) %>%
     #drop_na() %>%

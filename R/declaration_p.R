@@ -1,4 +1,4 @@
-maladie <- function(DF) {
+declaration_p <- function(DF) {
 
   mdo1 <- DF %>% dplyr::select(PATHOLOGIE,DATE_DECL_M) %>%
     tidyr::drop_na() %>%

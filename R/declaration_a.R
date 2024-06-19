@@ -1,4 +1,4 @@
-declaration <- function(DF) {
+declaration_a <- function(DF) {
 
   mdo1 <- DF %>% dplyr::select(DATE_DECL_Y,DATE_DECL_M) %>%
     tidyr::drop_na() %>%
