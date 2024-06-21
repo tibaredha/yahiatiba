@@ -1,3 +1,13 @@
+#' Title declaration_ta1
+#'
+#' @param DF value
+#' @param TO value
+#' @param BY value
+#'
+#' @return value
+#' @export
+#'
+#' @examples value
 declaration_ta1 <- function(DF,TO,BY){
 
   data <- DF %>% dplyr::select(AGE,SEXE)

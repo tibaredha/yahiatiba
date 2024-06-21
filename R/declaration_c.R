@@ -1,3 +1,11 @@
+#' Title declaration_c
+#'
+#' @param DF value
+#'
+#' @return value
+#' @export
+#'
+#' @examples value
 declaration_c <- function(DF) {
 
   str1 <- DF %>%

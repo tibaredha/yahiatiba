@@ -1,9 +1,13 @@
 Package: yahiatiba
 Title: maladie a declaration obligatoire
 Version: 0.0.0.9001
-Authors@R: 
-    person("Tiba redha,tibaredha@yahoo.fr", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+Authors@R: c(
+  person("Redha", "TIBA", role = "cre", email = "prenom.nom@insee.fr"),
+  person("Redha", "TIBA", role = "aut"),
+  person("azzedine", "BOULAOUCHE", role = "aut"),
+  person("xx", "yyy", role = "ctb"),
+  person(family = "Institut national de la statistique et des études économiques", role = "cph")
+  )         
 Description: maladie a declaration obligatoire.
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -20,6 +24,7 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     dplyr (>= 0.8),
+    lifecycle,
     lubridate,
     magrittr,
     tidyr

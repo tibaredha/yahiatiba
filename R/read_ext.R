@@ -1,3 +1,11 @@
+#' Title readext
+#'
+#' @param path value
+#'
+#' @return value
+#' @export
+#'
+#' @examples value
 read_ext <- function(path = NULL) {
   pkgname <- "yahiatiba"
   if (is.null(path)) {

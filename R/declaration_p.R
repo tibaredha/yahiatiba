@@ -1,3 +1,11 @@
+#' Title declaration_p
+#'
+#' @param DF value
+#'
+#' @return value
+#' @export
+#'
+#' @examples value
 declaration_p <- function(DF) {
 
   mdo1 <- DF %>% dplyr::select(PATHOLOGIE,DATE_DECL_M) %>%

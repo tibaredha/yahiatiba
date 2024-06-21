@@ -1,3 +1,11 @@
+#' Title declaration_ta
+#'
+#' @param DF value
+#'
+#' @return value
+#' @export
+#'
+#' @examples value
 declaration_ta <- function(DF) {
 
   mdota <- DF %>% dplyr::select(AGE,SEXE) %>%

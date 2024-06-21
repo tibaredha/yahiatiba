@@ -2,17 +2,18 @@ rm(list=ls())
 if (interactive()) {suppressMessages(require(tidyverse))}
 if (interactive()) {suppressMessages(require(devtools))}
 if(!require(pacman))install.packages("pacman");library("pacman")
-p_load(tidyverse,
-       lubridate,
-       ggthemes,
-       sf,mapsf,
-       foreign,
-       labelled,
-       gtsummary,
-       devtools,
-       roxygen2,
-       testthat,
-       knitr)
+p_load(
+  tidyverse,
+  lubridate,
+  ggthemes,
+  sf,mapsf,
+  foreign,
+  labelled,
+  gtsummary,
+  devtools,
+  roxygen2,
+  testthat,
+  knitr)
 theme_gtsummary_mean_sd()
 # theme_gtsummary_language("fr",decimal.mark = ",",big.mark = " ")
 # print("===============================")

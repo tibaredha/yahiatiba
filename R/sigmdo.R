@@ -1,3 +1,12 @@
+#' Title sigmdo
+#'
+#' @param wc_algeria value
+#' @param df value
+#'
+#' @return value
+#' @export
+#'
+#' @examples value
 sigmdo <- function(wc_algeria,df) {
 
   br <- df %>% dplyr::select(IDC) %>%

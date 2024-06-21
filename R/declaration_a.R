@@ -1,3 +1,11 @@
+#' Title declaration_a
+#'
+#' @param DF value
+#'
+#' @return value
+#' @export
+#'
+#' @examples value
 declaration_a <- function(DF) {
 
   mdo1 <- DF %>% dplyr::select(DATE_DECL_Y,DATE_DECL_M) %>%
