@@ -1,15 +1,26 @@
 Package: yahiatiba
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: maladie a declaration obligatoire
+Version: 0.0.0.9001
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("Tiba redha,tibaredha@yahoo.fr", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: maladie a declaration obligatoire.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Depends: 
     R (>= 2.10)
 LazyData: true
+Suggests: 
+    ggplot2,
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    dplyr (>= 0.8),
+    lubridate,
+    magrittr,
+    tidyr
+VignetteBuilder: knitr
