@@ -15,7 +15,7 @@ have been included.
 \usage{
 declaration_c
 
-declaration_c(DF)
+declaration_c(DF, POPMDO)
 }
 \arguments{
 \item{DF}{value}
