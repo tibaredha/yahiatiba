@@ -2,6 +2,24 @@ library(usethis)
 library(devtools)
 library(roxygen2)
 
+# 0.  import library --------
+library(bannerCommenter)
+banner()
+#################################################################
+##                        Dr TIBA PISP                         ##
+##                          DSP Djelfa                         ##
+#################################################################
+txt <- "This is the text of a comment"
+banner(txt)
+boxup(txt, snug = TRUE, bandChar = "=")
+section("")
+banner("Section 1:", "Data input","hhhh", emph = TRUE)
+
+#### tiba ####
+# sdfsdfsd ----
+
+
+
 #usethis::use_mit_license()
 #library(yahiatiba)
 #detach(yahiatiba)
@@ -57,6 +75,7 @@ yahiatiba::mdots(df)
   # usethis::use_data(data name, overwrite= TRUE)                    create  a folder  data and data name.rda file
   # usethis::use_data(compress = "bzip2")                            bzip2,gzip,xz
   # usethis::use_data(internal_this, internal_that, internal = TRUE) create  R/sysdata.rda
+  # usethis::use_build_ignore("extdata/") to ignore ext data in build proces
   # Raw data file inst/extdata/   use file <- yahiatiba::read_ext_data("yahiatiba","djelfa.shp")  # to get file path
   # CRAN  in R pakages is limitede to 5 megabyte ????
   # install.packages("data.table") which provides efficient tools for working with large datasets.
