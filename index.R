@@ -7,9 +7,19 @@ library(roxygen2)
 #detach(yahiatiba)
 rm(list=ls())
 wc_algeria <- yahiatiba::wc_algeria
+deces <- yahiatiba::deces
+deces %>% dplyr::filter(!complete.cases(.)) %>% view()
+glimpse(deces)
+
+drh <- yahiatiba::drh
+drh %>% dplyr::filter(!complete.cases(.)) %>% view()
+glimpse(drh)
+
 pop <- yahiatiba::pop
 df <- yahiatiba::mdo
+df %>% dplyr::filter(!complete.cases(.)) %>% view()
 glimpse(df)
+
 # df <- yahiatiba::mdo %>% dplyr::filter(PATHOLOGIE=="Brucellose")
 #df <- yahiatiba::mdo %>% dplyr::filter(PATHOLOGIE=="Tuberculose")
 #df <- yahiatiba::mdo %>% dplyr::filter(PATHOLOGIE=="Leishmaniose Cutanee")
@@ -100,7 +110,4 @@ yahiatiba::mdots(df)
   # usethis::use_lifecycle()
 
 # use_r() usethis::use_test() devtools::test() devtools::document() devtools::load_all(".")
-
-
-
 
