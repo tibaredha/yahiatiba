@@ -13,7 +13,10 @@ packageStartupMessage("\n")
 }
 
 #detach("package:yahiatiba", unload=TRUE)
-.onDetach <- function(libpath){packageStartupMessage("onDetach from tiba redha")}
+.onDetach <- function(libpath)
+{
+packageStartupMessage("onDetach from tiba redha")
+}
 
 # Packages can supply functions to be called when loaded, attached, detached or unloaded.
 # .onAttach(libname, pkgname)
