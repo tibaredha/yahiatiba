@@ -25,18 +25,25 @@ banner("Section 1:", "Data input","hhhh", emph = TRUE)
 #detach(yahiatiba)
 rm(list=ls())
 wc_algeria <- yahiatiba::wc_algeria
-deces <- yahiatiba::deces
-deces %>% dplyr::filter(!complete.cases(.)) %>% view()
-glimpse(deces)
+#deces <- yahiatiba::deces
+#deces %>% dplyr::filter(!complete.cases(.)) %>% view()
+#glimpse(deces)
 
-drh <- yahiatiba::drh
-drh %>% dplyr::filter(!complete.cases(.)) %>% view()
-glimpse(drh)
+#drh <- yahiatiba::drh
+#drh %>% dplyr::filter(!complete.cases(.)) %>% view()
+#glimpse(drh)
 
 pop <- yahiatiba::pop
 df <- yahiatiba::mdo
-df %>% dplyr::filter(!complete.cases(.)) %>% view()
+#df %>% dplyr::filter(!complete.cases(.)) %>% view()
 glimpse(df)
+
+df %>% dplyr::select(DATE) %>%
+  tidyr::separate(DATE, into = c("y", "m","d"), sep = "-") %>%
+  tidyr::unite(date2,c("y","m","d"),sep = "-") %>%
+  view()
+
+
 
 # df <- yahiatiba::mdo %>% dplyr::filter(PATHOLOGIE=="Brucellose")
 #df <- yahiatiba::mdo %>% dplyr::filter(PATHOLOGIE=="Tuberculose")
@@ -53,6 +60,11 @@ yahiatiba::declaration_p(df)
 yahiatiba::carte()
 yahiatiba::sigmdo(wc_algeria,df)
 yahiatiba::mdots(df)
+
+library(tseries)
+library(forecast)
+
+
 
 #import ( graphics )            #Pour le package integralement
 #importFrom ( graphics , plot ) #Pour une unique fonction en lui pr´ecisant le nom du package puis celui de la fonction
@@ -129,4 +141,63 @@ yahiatiba::mdots(df)
   # usethis::use_lifecycle()
 
 # use_r() usethis::use_test() devtools::test() devtools::document() devtools::load_all(".")
+
+# time series exemple
+
+ac <- function(tsn) {
+  par(mfrow=c(1,3))
+  acf(tsn,type = "covariance")
+  acf(tsn,type = "correlation")
+  pacf(tsn)
+  par(mfrow=c(1,1))
+}
+
+
+z <- df %>% dplyr::select(DATE_DECL_Y,DATE_DECL_M,DATE) %>%
+  dplyr::mutate(DATE_DECL_M = recode(DATE_DECL_M,
+                                     "janv"="01",
+                                     "fevr"="02",
+                                     "mars"="03",
+                                     "avr"="04",
+                                     "mai"="05",
+                                     "juin"="06",
+                                     "juil"="07",
+                                     "aout"="08",
+                                     "sept"="09",
+                                     "oct"="10",
+                                     "nov"="11",
+                                     "dec"="12" )) %>%
+
+  dplyr::mutate(datets=paste(DATE_DECL_Y,"-",DATE_DECL_M)) %>%
+  dplyr::group_by(datets) %>%
+  #dplyr::group_by(DATE) %>%
+  dplyr::summarise(nbr=sum(n())) #%>%
+
+ts1 <- ts(z, start = 2018, frequency=12)
+ts2 <- ts1[,2]
+plot(ts2)
+
+tsd <- decompose(ts2)
+plot(tsd)
+
+tseries::adf.test(ts2)
+
+ac(ts2)
+
+tibaautoarima <- forecast::auto.arima(ts2,ic = "aic",trace = TRUE)
+
+tibaautoarima
+
+
+tibaautoarima1 <- forecast::auto.arima(ts2)
+
+tibaautoarima1
+
+
+
+
+
+
+
+
 

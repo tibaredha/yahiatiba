@@ -8,6 +8,9 @@
 #' @examples value
 mdots <- function(DF) {
 
+  library("tseries")
+  library("forecast")
+
   z <- DF %>% dplyr::select(DATE_DECL_Y,DATE_DECL_M) %>%
     dplyr::mutate(DATE_DECL_M = recode(DATE_DECL_M,
                                        "janv"="01",
@@ -30,4 +33,28 @@ mdots <- function(DF) {
   ts1 <- ts(z, start = 2018, frequency=12)
   ts2 <- ts1[,2]
   plot(ts2)
+
+  tsd <- decompose(ts2)
+  plot(tsd)
+
+  tseries::adf.test(ts2)
+
+  ac(ts2)
+
+  tibaautoarima <- forecast::auto.arima(ts2,ic = "aic",trace = TRUE)
+
+
 }
+
+
+ac <- function(tsn) {
+  par(mfrow=c(1,3))
+  acf(tsn,type = "covariance")
+  acf(tsn,type = "correlation")
+  pacf(tsn)
+  par(mfrow=c(1,3))
+}
+
+
+
+
