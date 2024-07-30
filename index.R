@@ -142,8 +142,14 @@ library(forecast)
   # browseVignettes("yahiatiba")
   # vignette() vignette("mdo-vignette",package = "yahiatiba")
   # devtools::build_rmd("vignettes/mdo-vignette.Rmd") devtools::build_vignettes()
+
+
+# 4 version
   # usethis::use_version() to incremente version in description file
   # usethis::use_lifecycle()
+  # lifecycle::badge("experimental")
+  # lifecycle::badge('superseded')
+  # lifecycle::badge('deprecated')
 
 # use_r() usethis::use_test() devtools::test() devtools::document() devtools::load_all(".")
 
