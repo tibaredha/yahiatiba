@@ -25,5 +25,6 @@ dist_manhattan(point1 = points[4, ], point2 = points[8, ])
 points <- matrix(sample(1:10, size = 20, replace = TRUE),
 nrow = 10, ncol = 2)
 colnames(points) <- c("X", "Y")
+`r lifecycle::badge('experimental')`
 }
 \keyword{datasets}

@@ -2,6 +2,7 @@
 "_PACKAGE"
 
 ## usethis namespace: start
+#' @importFrom lifecycle deprecated
 ## usethis namespace: end
 NULL
 
@@ -23,4 +24,5 @@ NULL
 #' points <- matrix(sample(1:10, size = 20, replace = TRUE),
 #' nrow = 10, ncol = 2)
 #' colnames(points) <- c("X", "Y")
+#' `r lifecycle::badge('experimental')`
 "mdo"
