@@ -145,11 +145,11 @@ library(forecast)
 
 
 # 4 version
-  # usethis::use_version() to incremente version in description file
-  # usethis::use_lifecycle()
-  # lifecycle::badge("experimental")
-  # lifecycle::badge('superseded')
-  # lifecycle::badge('deprecated')
+  # usethis::use_version()      to incremente version in description file
+  # usethis::use_lifecycle()    generate svg file and look at the read me file
+  # lifecycle::badge("experimental") ??
+  # lifecycle::badge('superseded') ??
+  # lifecycle::badge('deprecated') ??
 
 # use_r() usethis::use_test() devtools::test() devtools::document() devtools::load_all(".")
 
