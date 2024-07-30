@@ -1,6 +1,6 @@
 Package: yahiatiba
 Title: maladie a declaration obligatoire
-Version: 0.0.0.9001
+Version: 0.0.0.9002
 Authors@R: c(
   person("Redha", "TIBA", role = "cre", email = "prenom.nom@insee.fr"),
   person("Redha", "TIBA", role = "aut"),
