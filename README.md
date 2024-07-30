@@ -3,7 +3,8 @@
 
 <!-- badges: start -->
 
-"\\ifelse{html}{\\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\\strong{[Experimental]}}"
+<a href="https://stackoverflow.com/"><img src=".//man//figures//lifecycle-experimental.svg"></img></a>
+
 <!-- badges: end -->
 
 The goal of yahiatiba is to ...
