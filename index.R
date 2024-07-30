@@ -50,11 +50,16 @@ df %>% dplyr::select(DATE) %>%
 #df <- yahiatiba::mdo %>% dplyr::filter(PATHOLOGIE=="Leishmaniose Cutanee")
 #df <- yahiatiba::mdo %>% dplyr::filter(PATHOLOGIE=="Rougeole")
 
+
 yahiatiba::declaration_a(df)
 yahiatiba::declaration_e(df)
 yahiatiba::declaration_c(df,pop)
 
 yahiatiba::declaration_ta(df)
+yahiatiba::decpta_epsp(df)
+yahiatiba::decpta_commune(df)
+yahiatiba::decpta_pathologie(df)
+
 yahiatiba::declaration_ta1(df,900,300)
 yahiatiba::declaration_p(df)
 yahiatiba::carte()

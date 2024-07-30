@@ -52,7 +52,7 @@ ac <- function(tsn) {
   acf(tsn,type = "covariance")
   acf(tsn,type = "correlation")
   pacf(tsn)
-  par(mfrow=c(1,3))
+  par(mfrow=c(1,1))
 }
 
 
