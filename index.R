@@ -4,11 +4,6 @@ library(roxygen2)
 
 # 0.  import library --------
 library(bannerCommenter)
-banner()
-#################################################################
-##                        Dr TIBA PISP                         ##
-##                          DSP Djelfa                         ##
-#################################################################
 txt <- "This is the text of a comment"
 banner(txt)
 boxup(txt, snug = TRUE, bandChar = "=")

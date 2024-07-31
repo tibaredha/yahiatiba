@@ -1,9 +1,5 @@
 # yahiatiba (development version)
 
-
-* Initial CRAN submission.
-
-
 # yahiatiba 0.0.0.9001
 
 # yahiatiba 0.0.0.9002
