@@ -202,18 +202,40 @@ tibaautoarima1
 
 #### lits structure hospitaliere ####
 data(str)
-yahiatiba::str.lit1_e_x(str,"SAADAOUI_Mokhtar")#eph_ao
+
+glimpse(str)
+
+levels(str$ETA)
+
+
+yahiatiba::str.lit1_e_x(str,"SAADAOUI_Mokhtar") #eph_ao
 yahiatiba::str.lit1_e_x(str,"eph_bi")
-yahiatiba::str.lit1_e_x(str,"BOUGERA_Ahmed")#eph_hbb
+yahiatiba::str.lit1_e_x(str,"BOUGERA_Ahmed")    #eph_hbb
 yahiatiba::str.lit1_e_x(str,"MOUHAD_Abdelkader")#eph_dje
-yahiatiba::str.lit1_e_x(str,"HATHAT_Boubaker")#eph_mi
-yahiatiba::str.lit1_e_x(str,"HANI_Mohamed")#eph_ma
-yahiatiba::str.lit1_e_x(str,"HENICHI_Mostapha")#eph_id
-yahiatiba::str.lit1_e_x(str,"KAKI_Mohamed")#ehs_me
+yahiatiba::str.lit1_e_x(str,"HATHAT_Boubaker")  #eph_mi
+yahiatiba::str.lit1_e_x(str,"HANI_Mohamed")#    eph_ma
+yahiatiba::str.lit1_e_x(str,"HENICHI_Mostapha") #eph_id
+yahiatiba::str.lit1_e_x(str,"KAKI_Mohamed")     #ehs_me
 yahiatiba::str.lit1_e_x(str,"ehs_oph")
-yahiatiba::str.lit1_e_x(str,"BENCHERIF_Ahmed")#ehs_cac
+yahiatiba::str.lit1_e_x(str,"BENCHERIF_Ahmed")  #ehs_cac
 
+yahiatiba::str.lit1_e_x(str,"eph_khm")  #
+yahiatiba::str.lit1_e_x(str,"eph_sbh")  #
 
+str.lit_wil(str)
+str.lit_dai(str)
+str.lit_com (str)
+str.lit_cs(str)
+str.lit_typ (str)
+str.lit_eta(str)
+str.lit_ser (str)
 
+str.ser_lit(str,"gyneco obstetrique")
+str.ser_lit(str,"pediatrie")
+str.ser_lit(str,"chirurgie generale")
+str.ser_lit(str,"medecine interne")
+str.ser_lit(str,"ophtalmologie")
+str.ser_lit(str,"reanimation")
+str.ser_lit(str,"umc")
 
 

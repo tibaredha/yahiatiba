@@ -1,0 +1,317 @@
+"IDW","WILAYA","DAIRA","COMMUNE","CS","ETA","TYPE","SERVICE","UNITE","LT","LO"
+44,"Ain_defla","Ain_defla","Ain_defla","Djelida","eph_adf","EPH","anatomie pathologique",2,0,0
+44,"Ain_defla","Ain_defla","Ain_defla","Djelida","eph_adf","EPH","chirurgie generale",5,64,64
+44,"Ain_defla","Ain_defla","Ain_defla","Djelida","eph_adf","EPH","epidemiologie",2,0,0
+44,"Ain_defla","Ain_defla","Ain_defla","Djelida","eph_adf","EPH","gyneco obstetrique",2,70,70
+44,"Ain_defla","Ain_defla","Ain_defla","Djelida","eph_adf","EPH","radio centrale",2,0,0
+44,"Ain_defla","Ain_defla","Ain_defla","Djelida","eph_adf","EPH","laboratoire centrale",2,0,0
+44,"Ain_defla","Ain_defla","Ain_defla","Djelida","eph_adf","EPH","medecine interne",4,68,68
+44,"Ain_defla","Ain_defla","Ain_defla","Djelida","eph_adf","EPH","medecine legale",2,4,4
+44,"Ain_defla","Ain_defla","Ain_defla","Djelida","eph_adf","EPH","ophtalmologie",2,16,16
+44,"Ain_defla","Ain_defla","Ain_defla","Djelida","eph_adf","EPH","orl",2,16,16
+44,"Ain_defla","Ain_defla","Ain_defla","Djelida","eph_adf","EPH","pediatrie",2,48,48
+44,"Ain_defla","Ain_defla","Ain_defla","Djelida","eph_adf","EPH","pharmacie",2,0,0
+44,"Ain_defla","Ain_defla","Ain_defla","Djelida","eph_adf","EPH","psychiatrie",2,10,10
+44,"Ain_defla","Ain_defla","Ain_defla","Djelida","eph_adf","EPH","umc",2,18,18
+44,"Ain_defla","El-Attaf","El-Attaf","El-Abadia","eph_atf","EPH","chirurgie generale",2,32,32
+44,"Ain_defla","El-Attaf","El-Attaf","El-Abadia","eph_atf","EPH","epidemiologie",2,0,0
+44,"Ain_defla","El-Attaf","El-Attaf","El-Abadia","eph_atf","EPH","gyneco obstetrique",2,36,36
+44,"Ain_defla","El-Attaf","El-Attaf","El-Abadia","eph_atf","EPH","radio centrale",2,0,0
+44,"Ain_defla","El-Attaf","El-Attaf","El-Abadia","eph_atf","EPH","laboratoire centrale",2,0,0
+44,"Ain_defla","El-Attaf","El-Attaf","El-Abadia","eph_atf","EPH","medecine interne",3,40,40
+44,"Ain_defla","El-Attaf","El-Attaf","El-Abadia","eph_atf","EPH","orthopedie traumatologie",2,16,16
+44,"Ain_defla","El-Attaf","El-Attaf","El-Abadia","eph_atf","EPH","pediatrie",2,56,56
+44,"Ain_defla","El-Attaf","El-Attaf","El-Abadia","eph_atf","EPH","pharmacie",2,0,0
+44,"Ain_defla","El-Attaf","El-Attaf","El-Abadia","eph_atf","EPH","umc",2,12,12
+44,"Ain_defla","Ain-Lechiakh","Khemis-Miliana","Ain-Lechiakh","eph_khm","EPH","chirurgie generale",3,40,40
+44,"Ain_defla","Ain-Lechiakh","Khemis-Miliana","Ain-Lechiakh","eph_khm","EPH","epidemiologie",2,0,0
+44,"Ain_defla","Ain-Lechiakh","Khemis-Miliana","Ain-Lechiakh","eph_khm","EPH","gyneco obstetrique",2,36,36
+44,"Ain_defla","Ain-Lechiakh","Khemis-Miliana","Ain-Lechiakh","eph_khm","EPH","radio centrale",2,0,0
+44,"Ain_defla","Ain-Lechiakh","Khemis-Miliana","Ain-Lechiakh","eph_khm","EPH","laboratoire centrale",2,0,0
+44,"Ain_defla","Ain-Lechiakh","Khemis-Miliana","Ain-Lechiakh","eph_khm","EPH","medecine interne",4,44,44
+44,"Ain_defla","Ain-Lechiakh","Khemis-Miliana","Ain-Lechiakh","eph_khm","EPH","orthopedie traumatologie",2,16,16
+44,"Ain_defla","Ain-Lechiakh","Khemis-Miliana","Ain-Lechiakh","eph_khm","EPH","pediatrie",2,48,48
+44,"Ain_defla","Ain-Lechiakh","Khemis-Miliana","Ain-Lechiakh","eph_khm","EPH","pharmacie",2,0,0
+44,"Ain_defla","Ain-Lechiakh","Khemis-Miliana","Ain-Lechiakh","eph_khm","EPH","umc",2,12,12
+44,"Ain_defla","Miliana","Miliana","Boumedfaa","eph_mln","EPH","chirurgie generale",3,58,58
+44,"Ain_defla","Miliana","Miliana","Boumedfaa","eph_mln","EPH","epidemiologie",2,0,0
+44,"Ain_defla","Miliana","Miliana","Boumedfaa","eph_mln","EPH","gyneco obstetrique",2,56,56
+44,"Ain_defla","Miliana","Miliana","Boumedfaa","eph_mln","EPH","radio centrale",2,0,0
+44,"Ain_defla","Miliana","Miliana","Boumedfaa","eph_mln","EPH","laboratoire centrale",2,0,0
+44,"Ain_defla","Miliana","Miliana","Boumedfaa","eph_mln","EPH","maladie infectieuse",2,22,22
+44,"Ain_defla","Miliana","Miliana","Boumedfaa","eph_mln","EPH","medecine interne",3,40,40
+44,"Ain_defla","Miliana","Miliana","Boumedfaa","eph_mln","EPH","orl",2,24,24
+44,"Ain_defla","Miliana","Miliana","Boumedfaa","eph_mln","EPH","pediatrie",2,34,34
+44,"Ain_defla","Miliana","Miliana","Boumedfaa","eph_mln","EPH","pharmacie",2,0,0
+44,"Ain_defla","Miliana","Miliana","Boumedfaa","eph_mln","EPH","pneumologie",2,40,40
+44,"Ain_defla","Miliana","Miliana","Boumedfaa","eph_mln","EPH","umc",2,10,10
+17,"Djelfa","Ain Oussera","Ain Oussera","Ain Oussera","SAADAOUI_Mokhtar","EPH","chirurgie generale",2,40,40
+17,"Djelfa","Ain Oussera","Ain Oussera","Ain Oussera","SAADAOUI_Mokhtar","EPH","epidemiologie",2,0,0
+17,"Djelfa","Ain Oussera","Ain Oussera","Ain Oussera","SAADAOUI_Mokhtar","EPH","gyneco obstetrique",2,30,30
+17,"Djelfa","Ain Oussera","Ain Oussera","Ain Oussera","SAADAOUI_Mokhtar","EPH","radio centrale",2,0,0
+17,"Djelfa","Ain Oussera","Ain Oussera","Ain Oussera","SAADAOUI_Mokhtar","EPH","laboratoire centrale",2,0,0
+17,"Djelfa","Ain Oussera","Ain Oussera","Ain Oussera","SAADAOUI_Mokhtar","EPH","medecine interne",4,40,40
+17,"Djelfa","Ain Oussera","Ain Oussera","Ain Oussera","SAADAOUI_Mokhtar","EPH","pediatrie",2,16,16
+17,"Djelfa","Ain Oussera","Ain Oussera","Ain Oussera","SAADAOUI_Mokhtar","EPH","pharmacie",2,0,0
+17,"Djelfa","Ain Oussera","Ain Oussera","Ain Oussera","SAADAOUI_Mokhtar","EPH","umc",2,20,20
+17,"Djelfa","Birine","Birine","Ain Oussera","eph_bi","EPH","chirurgie generale",2,15,15
+17,"Djelfa","Birine","Birine","Ain Oussera","eph_bi","EPH","epidemiologie",2,0,0
+17,"Djelfa","Birine","Birine","Ain Oussera","eph_bi","EPH","gyneco obstetrique",2,15,15
+17,"Djelfa","Birine","Birine","Ain Oussera","eph_bi","EPH","radio centrale",2,0,0
+17,"Djelfa","Birine","Birine","Ain Oussera","eph_bi","EPH","laboratoire centrale",2,0,0
+17,"Djelfa","Birine","Birine","Ain Oussera","eph_bi","EPH","medecine interne",2,12,12
+17,"Djelfa","Birine","Birine","Ain Oussera","eph_bi","EPH","pediatrie",2,12,12
+17,"Djelfa","Birine","Birine","Ain Oussera","eph_bi","EPH","pharmacie",2,0,0
+17,"Djelfa","Birine","Birine","Ain Oussera","eph_bi","EPH","umc",2,6,6
+17,"Djelfa","Hassi Bahbah","Hassi Bahbah","Hassi Bahbah","BOUGERA_Ahmed","EPH","chirurgie generale",4,60,60
+17,"Djelfa","Hassi Bahbah","Hassi Bahbah","Hassi Bahbah","BOUGERA_Ahmed","EPH","epidemiologie",2,0,0
+17,"Djelfa","Hassi Bahbah","Hassi Bahbah","Hassi Bahbah","BOUGERA_Ahmed","EPH","gyneco obstetrique",2,30,30
+17,"Djelfa","Hassi Bahbah","Hassi Bahbah","Hassi Bahbah","BOUGERA_Ahmed","EPH","radio centrale",2,0,0
+17,"Djelfa","Hassi Bahbah","Hassi Bahbah","Hassi Bahbah","BOUGERA_Ahmed","EPH","laboratoire centrale",2,0,0
+17,"Djelfa","Hassi Bahbah","Hassi Bahbah","Hassi Bahbah","BOUGERA_Ahmed","EPH","medecine interne",6,50,50
+17,"Djelfa","Hassi Bahbah","Hassi Bahbah","Hassi Bahbah","BOUGERA_Ahmed","EPH","pediatrie",2,30,30
+17,"Djelfa","Hassi Bahbah","Hassi Bahbah","Hassi Bahbah","BOUGERA_Ahmed","EPH","pharmacie",2,0,0
+17,"Djelfa","Hassi Bahbah","Hassi Bahbah","Hassi Bahbah","BOUGERA_Ahmed","EPH","umc",2,20,20
+17,"Djelfa","Hassi Bahbah","Hassi Bahbah","Hassi Bahbah","BOUGERA_Ahmed","EPH","nephrologie hemodialyse",2,20,20
+17,"Djelfa","Hassi Bahbah","Hassi Bahbah","Hassi Bahbah","BOUGERA_Ahmed","EPH","orthopedie traumatologie",2,30,30
+17,"Djelfa","Djelfa","Djelfa","Djelfa","MOUHAD_Abdelkader","EPH","anatomie pathologique",2,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","MOUHAD_Abdelkader","EPH","chirurgie generale",5,60,60
+17,"Djelfa","Djelfa","Djelfa","Djelfa","MOUHAD_Abdelkader","EPH","epidemiologie",2,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","MOUHAD_Abdelkader","EPH","gyneco obstetrique",2,60,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","MOUHAD_Abdelkader","EPH","radio centrale",2,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","MOUHAD_Abdelkader","EPH","laboratoire centrale",2,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","MOUHAD_Abdelkader","EPH","maladie infectieuse",2,30,30
+17,"Djelfa","Djelfa","Djelfa","Djelfa","MOUHAD_Abdelkader","EPH","medecine interne",3,50,50
+17,"Djelfa","Djelfa","Djelfa","Djelfa","MOUHAD_Abdelkader","EPH","medecine legale",2,4,4
+17,"Djelfa","Djelfa","Djelfa","Djelfa","MOUHAD_Abdelkader","EPH","nephrologie hemodialyse",2,30,30
+17,"Djelfa","Djelfa","Djelfa","Djelfa","MOUHAD_Abdelkader","EPH","ophtalmologie",2,16,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","MOUHAD_Abdelkader","EPH","orl",2,16,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","MOUHAD_Abdelkader","EPH","pediatrie",2,30,30
+17,"Djelfa","Djelfa","Djelfa","Djelfa","MOUHAD_Abdelkader","EPH","pneumologie",2,50,50
+17,"Djelfa","Djelfa","Djelfa","Djelfa","MOUHAD_Abdelkader","EPH","psychiatrie",2,10,10
+17,"Djelfa","Djelfa","Djelfa","Djelfa","MOUHAD_Abdelkader","EPH","pharmacie",2,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","MOUHAD_Abdelkader","EPH","umc",3,30,30
+17,"Djelfa","Djelfa","Djelfa","Djelfa","HATHAT_Boubaker","EPH","anatomie pathologique",2,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","HATHAT_Boubaker","EPH","bloc operatoire",3,7,7
+17,"Djelfa","Djelfa","Djelfa","Djelfa","HATHAT_Boubaker","EPH","cardiologie",3,12,12
+17,"Djelfa","Djelfa","Djelfa","Djelfa","HATHAT_Boubaker","EPH","chirurgie generale",6,44,44
+17,"Djelfa","Djelfa","Djelfa","Djelfa","HATHAT_Boubaker","EPH","hematologie",2,12,12
+17,"Djelfa","Djelfa","Djelfa","Djelfa","HATHAT_Boubaker","EPH","laboratoire centrale",4,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","HATHAT_Boubaker","EPH","medecine interne",5,36,36
+17,"Djelfa","Djelfa","Djelfa","Djelfa","HATHAT_Boubaker","EPH","medecine legale",2,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","HATHAT_Boubaker","EPH","medecine physique",4,12,12
+17,"Djelfa","Djelfa","Djelfa","Djelfa","HATHAT_Boubaker","EPH","oncologie",3,25,25
+17,"Djelfa","Djelfa","Djelfa","Djelfa","HATHAT_Boubaker","EPH","orthopedie traumatologie neurochirurgie ",2,24,24
+17,"Djelfa","Djelfa","Djelfa","Djelfa","HATHAT_Boubaker","EPH","pneumologie",4,32,32
+17,"Djelfa","Djelfa","Djelfa","Djelfa","HATHAT_Boubaker","EPH","pharmacie",3,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","HATHAT_Boubaker","EPH","radio centrale",3,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","HATHAT_Boubaker","EPH","reanimation",2,18,18
+17,"Djelfa","Djelfa","Djelfa","Djelfa","HATHAT_Boubaker","EPH","service des brules",2,12,12
+17,"Djelfa","Djelfa","Djelfa","Djelfa","HATHAT_Boubaker","EPH","umc",3,26,26
+17,"Djelfa","Messaad","Messaad","Messaad","HANI_Mohamed","EPH","chirurgie generale",2,30,30
+17,"Djelfa","Messaad","Messaad","Messaad","HANI_Mohamed","EPH","epidemiologie",2,0,0
+17,"Djelfa","Messaad","Messaad","Messaad","HANI_Mohamed","EPH","gyneco obstetrique",2,30,30
+17,"Djelfa","Messaad","Messaad","Messaad","HANI_Mohamed","EPH","radio centrale",2,0,0
+17,"Djelfa","Messaad","Messaad","Messaad","HANI_Mohamed","EPH","laboratoire centrale",2,0,0
+17,"Djelfa","Messaad","Messaad","Messaad","HANI_Mohamed","EPH","medecine interne",5,40,40
+17,"Djelfa","Messaad","Messaad","Messaad","HANI_Mohamed","EPH","ophtalmologie",2,16,16
+17,"Djelfa","Messaad","Messaad","Messaad","HANI_Mohamed","EPH","orl",2,16,16
+17,"Djelfa","Messaad","Messaad","Messaad","HANI_Mohamed","EPH","pediatrie",2,30,30
+17,"Djelfa","Messaad","Messaad","Messaad","HANI_Mohamed","EPH","pharmacie",2,0,0
+17,"Djelfa","Messaad","Messaad","Messaad","HANI_Mohamed","EPH","pneumologie",2,30,30
+17,"Djelfa","Messaad","Messaad","Messaad","HANI_Mohamed","EPH","umc",3,20,20
+17,"Djelfa","Idrissia","Idrissia","Djelfa","HENICHI_Mostapha","EPH","chirurgie generale",3,20,20
+17,"Djelfa","Idrissia","Idrissia","Djelfa","HENICHI_Mostapha","EPH","epidemiologie",2,0,0
+17,"Djelfa","Idrissia","Idrissia","Djelfa","HENICHI_Mostapha","EPH","gyneco obstetrique",2,30,30
+17,"Djelfa","Idrissia","Idrissia","Djelfa","HENICHI_Mostapha","EPH","laboratoire centrale",2,0,0
+17,"Djelfa","Idrissia","Idrissia","Djelfa","HENICHI_Mostapha","EPH","medecine interne",2,30,30
+17,"Djelfa","Idrissia","Idrissia","Djelfa","HENICHI_Mostapha","EPH","pediatrie",2,30,30
+17,"Djelfa","Idrissia","Idrissia","Djelfa","HENICHI_Mostapha","EPH","pharmacie",2,0,0
+17,"Djelfa","Idrissia","Idrissia","Djelfa","HENICHI_Mostapha","EPH","radio centrale",2,0,0
+17,"Djelfa","Idrissia","Idrissia","Djelfa","HENICHI_Mostapha","EPH","umc",2,10,10
+17,"Djelfa","Djelfa","Djelfa","Djelfa","KAKI_Mohamed","EHS","gyneco obstetrique",4,98,98
+17,"Djelfa","Djelfa","Djelfa","Djelfa","KAKI_Mohamed","EHS","pediatrie",4,34,34
+17,"Djelfa","Djelfa","Djelfa","Djelfa","KAKI_Mohamed","EHS","laboratoire centrale",2,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","KAKI_Mohamed","EHS","radio centrale",2,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","KAKI_Mohamed","EHS","pharmacie",2,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","ehs_oph","EH","exploratio fonctionnelle",2,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","ehs_oph","EH","medecine de travail",2,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","ehs_oph","EH","ophtalmologie",4,110,110
+17,"Djelfa","Djelfa","Djelfa","Djelfa","ehs_oph","EH","pharmacie",2,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","ehs_oph","EH","umc",2,10,10
+17,"Djelfa","Djelfa","Djelfa","Djelfa","BENCHERIF_Ahmed","EHS","anatomie pathologique",3,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","BENCHERIF_Ahmed","EHS","reanimation",2,10,10
+17,"Djelfa","Djelfa","Djelfa","Djelfa","BENCHERIF_Ahmed","EHS","chirurgie generale",3,30,30
+17,"Djelfa","Djelfa","Djelfa","Djelfa","BENCHERIF_Ahmed","EHS","hematologie",3,15,15
+17,"Djelfa","Djelfa","Djelfa","Djelfa","BENCHERIF_Ahmed","EHS","radio centrale",2,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","BENCHERIF_Ahmed","EHS","laboratoire centrale",4,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","BENCHERIF_Ahmed","EHS","medecine nucleaire",5,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","BENCHERIF_Ahmed","EHS","oncologie",3,35,35
+17,"Djelfa","Djelfa","Djelfa","Djelfa","BENCHERIF_Ahmed","EHS","oncologie",2,15,15
+17,"Djelfa","Djelfa","Djelfa","Djelfa","BENCHERIF_Ahmed","EHS","pharmacie",2,0,0
+17,"Djelfa","Djelfa","Djelfa","Djelfa","BENCHERIF_Ahmed","EHS","radiotherapie",2,10,10
+17,"Djelfa","Djelfa","Djelfa","Djelfa","BENCHERIF_Ahmed","EHS","umc",2,0,0
+2,"Chlef","Ain merane","Ain merane","Taougrite","eph_amr","EPH","reanimation",2,4,4
+2,"Chlef","Ain merane","Ain merane","Taougrite","eph_amr","EPH","chirurgie generale",4,12,12
+2,"Chlef","Ain merane","Ain merane","Taougrite","eph_amr","EPH","epidemiologie",2,0,0
+2,"Chlef","Ain merane","Ain merane","Taougrite","eph_amr","EPH","gyneco obstetrique",2,16,16
+2,"Chlef","Ain merane","Ain merane","Taougrite","eph_amr","EPH","laboratoire centrale",3,0,0
+2,"Chlef","Ain merane","Ain merane","Taougrite","eph_amr","EPH","medecine interne",3,16,16
+2,"Chlef","Ain merane","Ain merane","Taougrite","eph_amr","EPH","pediatrie",2,12,12
+2,"Chlef","Ain merane","Ain merane","Taougrite","eph_amr","EPH","pharmacie",2,0,0
+2,"Chlef","Ain merane","Ain merane","Taougrite","eph_amr","EPH","radio centrale",3,0,0
+2,"Chlef","Ain merane","Ain merane","Taougrite","eph_amr","EPH","umc",3,6,6
+2,"Chlef","Chlef","Chlef","Taougrite","eph_chr","EPH","epidemiologie",2,0,0
+2,"Chlef","Chlef","Chlef","Taougrite","eph_chr","EPH","gyneco obstetrique",6,110,110
+2,"Chlef","Chlef","Chlef","Taougrite","eph_chr","EPH","laboratoire centrale",3,0,0
+2,"Chlef","Chlef","Chlef","Taougrite","eph_chr","EPH","pediatrie",3,48,48
+2,"Chlef","Chlef","Chlef","Taougrite","eph_chr","EPH","pharmacie",2,0,0
+2,"Chlef","Chlef","Chlef","Taougrite","eph_chr","EPH","radiologie",2,0,0
+2,"Chlef","Chlef","Chlef","Taougrite","eph_chr","EPH","umc",3,28,28
+2,"Chlef","Ouled Fares","Chettia","Ouled Fares","eph_cht","EPH","chirurgie generale",4,38,38
+2,"Chlef","Ouled Fares","Chettia","Ouled Fares","eph_cht","EPH","epidemiologie",2,0,0
+2,"Chlef","Ouled Fares","Chettia","Ouled Fares","eph_cht","EPH","gyneco obstetrique",4,30,30
+2,"Chlef","Ouled Fares","Chettia","Ouled Fares","eph_cht","EPH","laboratoire centrale",4,0,0
+2,"Chlef","Ouled Fares","Chettia","Ouled Fares","eph_cht","EPH","maladie infectieuse",2,20,20
+2,"Chlef","Ouled Fares","Chettia","Ouled Fares","eph_cht","EPH","medecine interne",2,24,24
+2,"Chlef","Ouled Fares","Chettia","Ouled Fares","eph_cht","EPH","nephrologie hemodialyse",2,26,26
+2,"Chlef","Ouled Fares","Chettia","Ouled Fares","eph_cht","EPH","orthopedie traumatologie",2,16,16
+2,"Chlef","Ouled Fares","Chettia","Ouled Fares","eph_cht","EPH","pediatrie",2,32,32
+2,"Chlef","Ouled Fares","Chettia","Ouled Fares","eph_cht","EPH","pharmacie",2,0,0
+2,"Chlef","Ouled Fares","Chettia","Ouled Fares","eph_cht","EPH","radio centrale",3,0,0
+2,"Chlef","Ouled Fares","Chettia","Ouled Fares","eph_cht","EPH","umc",2,8,8
+2,"Chlef","Chlef","Chlef","Taougrite","eph_olm","EPH","chirurgie generale",3,64,64
+2,"Chlef","Chlef","Chlef","Taougrite","eph_olm","EPH","pediatrie",2,32,32
+2,"Chlef","Chlef","Chlef","Taougrite","eph_olm","EPH","epidemiologie",2,0,0
+2,"Chlef","Chlef","Chlef","Taougrite","eph_olm","EPH","orthopedie traumatologie",2,32,32
+2,"Chlef","Chlef","Chlef","Taougrite","eph_olm","EPH","pneumologie",2,32,32
+2,"Chlef","Chlef","Chlef","Taougrite","eph_olm","EPH","laboratoire centrale",2,0,0
+2,"Chlef","Chlef","Chlef","Taougrite","eph_olm","EPH","radio centrale",2,0,0
+2,"Chlef","Chlef","Chlef","Taougrite","eph_olm","EPH","pharmacie",2,0,0
+2,"Chlef","Chlef","Chlef","Taougrite","eph_olm","EPH","umc",2,18,18
+2,"Chlef","Boukadir","Sobha","Boukadir","eph_sbh","EPH","chirurgie generale",2,36,36
+2,"Chlef","Boukadir","Sobha","Boukadir","eph_sbh","EPH","epidemiologie",2,0,0
+2,"Chlef","Boukadir","Sobha","Boukadir","eph_sbh","EPH","gyneco obstetrique",2,30,30
+2,"Chlef","Boukadir","Sobha","Boukadir","eph_sbh","EPH","laboratoire centrale",2,0,0
+2,"Chlef","Boukadir","Sobha","Boukadir","eph_sbh","EPH","medecine de travail",2,0,0
+2,"Chlef","Boukadir","Sobha","Boukadir","eph_sbh","EPH","medecine interne",4,38,38
+2,"Chlef","Boukadir","Sobha","Boukadir","eph_sbh","EPH","orthopedie traumatologie",2,36,36
+2,"Chlef","Boukadir","Sobha","Boukadir","eph_sbh","EPH","pediatrie",2,40,40
+2,"Chlef","Boukadir","Sobha","Boukadir","eph_sbh","EPH","pharmacie",2,0,0
+2,"Chlef","Boukadir","Sobha","Boukadir","eph_sbh","EPH","radio centrale",2,0,0
+2,"Chlef","Boukadir","Sobha","Boukadir","eph_sbh","EPH","umc",2,8,8
+2,"Chlef","Chlef","Chlef","Taougrite","eph_srb","EPH","anatomie pathologique",2,0,0
+2,"Chlef","Chlef","Chlef","Taougrite","eph_srb","EPH","reanimation",2,20,20
+2,"Chlef","Chlef","Chlef","Taougrite","eph_srb","EPH","chirurgie generale",5,64,64
+2,"Chlef","Chlef","Chlef","Taougrite","eph_srb","EPH","chirurgie urologique",2,32,32
+2,"Chlef","Chlef","Chlef","Taougrite","eph_srb","EPH","cardiologie",2,32,32
+2,"Chlef","Chlef","Chlef","Taougrite","eph_srb","EPH","epidemiologie",2,0,0
+2,"Chlef","Chlef","Chlef","Taougrite","eph_srb","EPH","medecine interne",3,32,32
+2,"Chlef","Chlef","Chlef","Taougrite","eph_srb","EPH","oncologie",2,32,32
+2,"Chlef","Chlef","Chlef","Taougrite","eph_srb","EPH","ophtalmologie",2,16,16
+2,"Chlef","Chlef","Chlef","Taougrite","eph_srb","EPH","orl",2,16,16
+2,"Chlef","Chlef","Chlef","Taougrite","eph_srb","EPH","reeducation fonctionnelle",3,0,0
+2,"Chlef","Chlef","Chlef","Taougrite","eph_srb","EPH","radio centrale",3,0,0
+2,"Chlef","Chlef","Chlef","Taougrite","eph_srb","EPH","laboratoire centrale",4,0,0
+2,"Chlef","Chlef","Chlef","Taougrite","eph_srb","EPH","medecine legale",2,0,0
+2,"Chlef","Chlef","Chlef","Taougrite","eph_srb","EPH","pharmacie",2,0,0
+2,"Chlef","Chlef","Chlef","Taougrite","eph_srb","EPH","umc",2,9,9
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsa","EPH","epidemiologie",2,0,0
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsa","EPH","laboratoire centrale",4,0,0
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsa","EPH","maladie infectieuse",2,20,20
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsa","EPH","medecine interne",5,40,40
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsa","EPH","nephrologie hemodialyse",2,15,15
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsa","EPH","pharmacie",2,0,0
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsa","EPH","pneumologie",2,20,20
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsa","EPH","radio centrale",3,0,0
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsa","EPH","umc",2,8,8
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsz","EPH","chirurgie generale",3,32,32
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsz","EPH","epidemiologie",2,0,0
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsz","EPH","gyneco obstetrique",4,40,40
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsz","EPH","laboratoire centrale",4,0,0
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsz","EPH","medecine interne",3,32,32
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsz","EPH","medecine legale",2,0,0
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsz","EPH","orthopedie traumatologie",2,32,32
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsz","EPH","medecine de travail",2,0,0
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsz","EPH","pediatrie",3,32,32
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsz","EPH","pharmacie",2,0,0
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsz","EPH","radio centrale",2,0,0
+2,"Chlef","Tenes","Tenes","Tenes","eph_tnsz","EPH","umc",3,14,14
+2,"Chlef","Tenes","Tenes","Tenes","ehs_tns","EHS","psychiatrie",4,120,120
+28,"msila","Ain El Melh","Ain El Melh","Ain El Melh","eph_alm","EPH","chirurgie generale",2,64,64
+28,"msila","Ain El Melh","Ain El Melh","Ain El Melh","eph_alm","EPH","epidemiologie",2,0,0
+28,"msila","Ain El Melh","Ain El Melh","Ain El Melh","eph_alm","EPH","gyneco obstetrique",2,58,58
+28,"msila","Ain El Melh","Ain El Melh","Ain El Melh","eph_alm","EPH","radio centrale",2,0,0
+28,"msila","Ain El Melh","Ain El Melh","Ain El Melh","eph_alm","EPH","laboratoire centrale",2,0,0
+28,"msila","Ain El Melh","Ain El Melh","Ain El Melh","eph_alm","EPH","medecine interne",3,64,64
+28,"msila","Ain El Melh","Ain El Melh","Ain El Melh","eph_alm","EPH","medecine de travail",2,0,0
+28,"msila","Ain El Melh","Ain El Melh","Ain El Melh","eph_alm","EPH","pediatrie",2,48,48
+28,"msila","Ain El Melh","Ain El Melh","Ain El Melh","eph_alm","EPH","pharmacie",2,0,0
+28,"msila","Ain El Melh","Ain El Melh","Ain El Melh","eph_alm","EPH","umc",2,14,14
+28,"msila","Ben Srour","Ben Srour","Ben Srour","eph_bns","EPH","chirurgie generale",3,16,16
+28,"msila","Ben Srour","Ben Srour","Ben Srour","eph_bns","EPH","epidemiologie",2,0,0
+28,"msila","Ben Srour","Ben Srour","Ben Srour","eph_bns","EPH","gyneco obstetrique",2,16,16
+28,"msila","Ben Srour","Ben Srour","Ben Srour","eph_bns","EPH","radio centrale",2,0,0
+28,"msila","Ben Srour","Ben Srour","Ben Srour","eph_bns","EPH","laboratoire centrale",2,0,0
+28,"msila","Ben Srour","Ben Srour","Ben Srour","eph_bns","EPH","medecine interne",3,28,28
+28,"msila","Ben Srour","Ben Srour","Ben Srour","eph_bns","EPH","pediatrie",2,28,28
+28,"msila","Ben Srour","Ben Srour","Ben Srour","eph_bns","EPH","pharmacie",2,0,0
+28,"msila","Ben Srour","Ben Srour","Ben Srour","eph_bns","EPH","umc",2,8,8
+28,"msila","Sidi Aissa","Sidi Aissa","Sidi Aissa","eph_sda","EPH","chirurgie generale",2,64,64
+28,"msila","Sidi Aissa","Sidi Aissa","Sidi Aissa","eph_sda","EPH","epidemiologie",2,0,0
+28,"msila","Sidi Aissa","Sidi Aissa","Sidi Aissa","eph_sda","EPH","gyneco obstetrique",2,60,60
+28,"msila","Sidi Aissa","Sidi Aissa","Sidi Aissa","eph_sda","EPH","radio centrale",2,0,0
+28,"msila","Sidi Aissa","Sidi Aissa","Sidi Aissa","eph_sda","EPH","laboratoire centrale",2,0,0
+28,"msila","Sidi Aissa","Sidi Aissa","Sidi Aissa","eph_sda","EPH","medecine interne",4,72,72
+28,"msila","Sidi Aissa","Sidi Aissa","Sidi Aissa","eph_sda","EPH","medecine de travail",2,0,0
+28,"msila","Sidi Aissa","Sidi Aissa","Sidi Aissa","eph_sda","EPH","pediatrie",2,44,44
+28,"msila","Sidi Aissa","Sidi Aissa","Sidi Aissa","eph_sda","EPH","pharmacie",2,0,0
+28,"msila","Sidi Aissa","Sidi Aissa","Sidi Aissa","eph_sda","EPH","psychiatrie",2,10,10
+28,"msila","Sidi Aissa","Sidi Aissa","Sidi Aissa","eph_sda","EPH","umc",2,14,14
+28,"msila","Bousaada","Bousaada","Bousaada","eph_bsd","EPH","chirurgie generale",2,40,40
+28,"msila","Bousaada","Bousaada","Bousaada","eph_bsd","EPH","epidemiologie",2,0,0
+28,"msila","Bousaada","Bousaada","Bousaada","eph_bsd","EPH","gyneco obstetrique",2,60,60
+28,"msila","Bousaada","Bousaada","Bousaada","eph_bsd","EPH","radio centrale",2,0,0
+28,"msila","Bousaada","Bousaada","Bousaada","eph_bsd","EPH","laboratoire centrale",2,0,0
+28,"msila","Bousaada","Bousaada","Bousaada","eph_bsd","EPH","maladie infectieuse",2,20,20
+28,"msila","Bousaada","Bousaada","Bousaada","eph_bsd","EPH","medecine interne",4,60,60
+28,"msila","Bousaada","Bousaada","Bousaada","eph_bsd","EPH","ophtalmologie",2,20,20
+28,"msila","Bousaada","Bousaada","Bousaada","eph_bsd","EPH","orthopedie traumatologie",2,20,20
+28,"msila","Bousaada","Bousaada","Bousaada","eph_bsd","EPH","orl",2,20,20
+28,"msila","Bousaada","Bousaada","Bousaada","eph_bsd","EPH","pediatrie",2,52,52
+28,"msila","Bousaada","Bousaada","Bousaada","eph_bsd","EPH","pharmacie",2,0,0
+28,"msila","Bousaada","Bousaada","Bousaada","eph_bsd","EPH","umc",2,16,16
+28,"msila","Magra","Magra","Magra","eph_mgr","EPH","chirurgie generale",3,16,16
+28,"msila","Magra","Magra","Magra","eph_mgr","EPH","epidemiologie",2,0,0
+28,"msila","Magra","Magra","Magra","eph_mgr","EPH","gyneco obstetrique",2,16,16
+28,"msila","Magra","Magra","Magra","eph_mgr","EPH","radio centrale",2,0,0
+28,"msila","Magra","Magra","Magra","eph_mgr","EPH","laboratoire centrale",2,0,0
+28,"msila","Magra","Magra","Magra","eph_mgr","EPH","medecine interne",3,28,28
+28,"msila","Magra","Magra","Magra","eph_mgr","EPH","pediatrie",2,28,28
+28,"msila","Magra","Magra","Magra","eph_mgr","EPH","pharmacie",2,0,0
+28,"msila","Magra","Magra","Magra","eph_mgr","EPH","umv",2,8,8
+28,"msila","Msila","Msila","Msila","eph_msl","EPH","anatomie pathologique",2,0,0
+28,"msila","Msila","Msila","Msila","eph_msl","EPH","reanimation",2,12,12
+28,"msila","Msila","Msila","Msila","eph_msl","EPH","cardiologie",2,20,20
+28,"msila","Msila","Msila","Msila","eph_msl","EPH","chirurgie generale",3,24,24
+28,"msila","Msila","Msila","Msila","eph_msl","EPH","chirurgie pediatrique",2,20,20
+28,"msila","Msila","Msila","Msila","eph_msl","EPH","epidemiologie",2,0,0
+28,"msila","Msila","Msila","Msila","eph_msl","EPH","laboratoire centrale",2,0,0
+28,"msila","Msila","Msila","Msila","eph_msl","EPH","maladie infectieuse",2,30,30
+28,"msila","Msila","Msila","Msila","eph_msl","EPH","medecine interne",2,50,50
+28,"msila","Msila","Msila","Msila","eph_msl","EPH","medecine legale",2,0,0
+28,"msila","Msila","Msila","Msila","eph_msl","EPH","nephrologie hemodialyse",2,13,213
+28,"msila","Msila","Msila","Msila","eph_msl","EPH","oncologie",2,20,20
+28,"msila","Msila","Msila","Msila","eph_msl","EPH","ophtalmologie",2,20,20
+28,"msila","Msila","Msila","Msila","eph_msl","EPH","orthopedie traumatologie",2,20,20
+28,"msila","Msila","Msila","Msila","eph_msl","EPH","orl",2,16,16
+28,"msila","Msila","Msila","Msila","eph_msl","EPH","pediatrie",2,40,40
+28,"msila","Msila","Msila","Msila","eph_msl","EPH","pharmacie",2,0,0
+28,"msila","Msila","Msila","Msila","eph_msl","EPH","radio centrale",2,0,0
+28,"msila","Msila","Msila","Msila","eph_msl","EPH","umc",2,24,24
+28,"msila","Msila","Msila","Msila","ehs_me","EHS","gyneco obstetrique",4,50,50
+28,"msila","Msila","Msila","Msila","ehs_me","EHS","neonatologie",2,20,20
+28,"msila","hdalaa","ouled mansour","Msila","ehs_psc","EHS","psychiatrie",3,80,80
+28,"msila","hdalaa","ouled mansour","Msila","ehs_psc","EHS","psychiatrie",2,20,20
+28,"msila","hdalaa","ouled mansour","Msila","ehs_psc","EHS","Lutte contre la toxicomanie",2,20,20
+28,"msila","hdalaa","ouled mansour","Msila","ehs_psc","EHS","pharmacie",2,0,0

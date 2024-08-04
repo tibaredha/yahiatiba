@@ -12,7 +12,7 @@ str.lit1_e_x <- function(DF,xeta) {
   lit1_e_0 <- DF %>% select(ETA,SERVICE,UNITE,LT,LO) %>%
     dplyr::filter(ETA==xeta) %>%
     dplyr::mutate(DNL=LT-LO) %>%
-    select(SERVICE,UNITE,LT,LO,DNL) #%>% view()
+    dplyr::select(SERVICE,UNITE,LT,LO,DNL) #%>% view()
 
   lit2_e_0 <- data.frame(
     SERVICE = paste0("Total: ",nrow(lit1_e_0)),
