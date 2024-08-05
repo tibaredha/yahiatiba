@@ -1,6 +1,6 @@
 ## code to prepare `str` dataset goes here
 
-file <- yahiatiba::read_ext("region_e_lit.csv")
+file <- yahiatiba::read_ext("./str/region_e_lit.csv")
 str <- read.csv(file)
 str <- str %>% mutate(
   WILAYA=as.factor(WILAYA),
