@@ -7,7 +7,7 @@
 #' @export
 #'
 #' @examples value
-str.ser_lit <- function(DF,XSERVICE) {
+str_ser_lit <- function(DF,XSERVICE) {
 
   ser_l1 <- DF %>% select(ETA,SERVICE,UNITE,LT,LO) %>%
     dplyr::filter(SERVICE==XSERVICE) %>%

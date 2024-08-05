@@ -1,4 +1,4 @@
-#' Title str.lit_typ
+#' Title str.lit_wil
 #'
 #' @param DF value
 #'
@@ -6,13 +6,13 @@
 #' @export
 #'
 #' @examples value
-str.lit_typ <- function(DF) {
+str_lit_wil <- function(DF) {
 
-  lit1_e <- DF %>% select(TYPE,ETA,SERVICE,UNITE,LT,LO) %>%
-    group_by(TYPE) %>%
-    summarise(T_SERVICE=n(),T_UNITE=sum(UNITE),T_LT=sum(LT),T_LO=sum(LO)) #%>% view()
+  lit1_e <- DF %>% select(WILAYA,ETA,SERVICE,UNITE,LT,LO) %>%
+    dplyr::group_by(WILAYA) %>%
+    dplyr::summarise(T_SERVICE=n(),T_UNITE=sum(UNITE),T_LT=sum(LT),T_LO=sum(LO)) #%>% view()
   lit2_e <- data.frame(
-    TYPE = paste0("Total: ",nrow(lit1_e)),
+    WILAYA = paste0("Total: ",nrow(lit1_e)),
     T_SERVICE = sum(lit1_e[,"T_SERVICE"]),
     T_UNITE = sum(lit1_e[,"T_UNITE"]),
     T_LT = sum(lit1_e[,"T_LT"]),
@@ -22,5 +22,5 @@ str.lit_typ <- function(DF) {
   rm(lit1_e,lit2_e)
   knitr::kable(lit3_e,
                #align = "lccccrrr",
-               caption = paste0(" Nbr de lit par Type etablissement "))
+               caption = paste0(" Nbr de lit par Wilayas "))
 }

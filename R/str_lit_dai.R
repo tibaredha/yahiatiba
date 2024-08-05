@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples value
-str.lit_dai <- function(DF) {
+str_lit_dai <- function(DF) {
 
   lit1_e <- DF %>% select(DAIRA,ETA,SERVICE,UNITE,LT,LO) %>%
     group_by(DAIRA) %>%

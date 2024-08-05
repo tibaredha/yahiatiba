@@ -7,7 +7,7 @@
 #' @export
 #'
 #' @examples value
-str.lit1_e_x <- function(DF,xeta) {
+str_lit1_e_x <- function(DF,xeta) {
 
   lit1_e_0 <- DF %>% select(ETA,SERVICE,UNITE,LT,LO) %>%
     dplyr::filter(ETA==xeta) %>%

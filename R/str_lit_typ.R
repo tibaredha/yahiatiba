@@ -1,4 +1,4 @@
-#' Title str.lit_eta
+#' Title str.lit_typ
 #'
 #' @param DF value
 #'
@@ -6,13 +6,13 @@
 #' @export
 #'
 #' @examples value
-str.lit_eta <- function(DF) {
+str_lit_typ <- function(DF) {
 
-  lit1_e <- DF %>% select(ETA,SERVICE,UNITE,LT,LO) %>%
-    group_by(ETA) %>%
+  lit1_e <- DF %>% select(TYPE,ETA,SERVICE,UNITE,LT,LO) %>%
+    group_by(TYPE) %>%
     summarise(T_SERVICE=n(),T_UNITE=sum(UNITE),T_LT=sum(LT),T_LO=sum(LO)) #%>% view()
   lit2_e <- data.frame(
-    ETA = paste0("Total: ",nrow(lit1_e)),
+    TYPE = paste0("Total: ",nrow(lit1_e)),
     T_SERVICE = sum(lit1_e[,"T_SERVICE"]),
     T_UNITE = sum(lit1_e[,"T_UNITE"]),
     T_LT = sum(lit1_e[,"T_LT"]),
@@ -22,5 +22,5 @@ str.lit_eta <- function(DF) {
   rm(lit1_e,lit2_e)
   knitr::kable(lit3_e,
                #align = "lccccrrr",
-               caption = paste0(" Nbr de lit par etablissement "))
+               caption = paste0(" Nbr de lit par Type etablissement "))
 }

@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples value
-str.lit_cs<- function(DF) {
+str_lit_cs<- function(DF) {
 
   lit1_e <- DF %>% select(CS,ETA,SERVICE,UNITE,LT,LO) %>%
     group_by(CS) %>%

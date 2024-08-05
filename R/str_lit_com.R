@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples value
-str.lit_com <- function(DF) {
+str_lit_com <- function(DF) {
 
   lit1_e <- DF %>% select(COMMUNE,ETA,SERVICE,UNITE,LT,LO) %>%
     group_by(COMMUNE) %>%

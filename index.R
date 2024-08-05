@@ -213,34 +213,34 @@ glimpse(str)
 levels(str$ETA)
 
 
-yahiatiba::str.lit1_e_x(str,"SAADAOUI_Mokhtar") #eph_ao
-yahiatiba::str.lit1_e_x(str,"eph_bi")
-yahiatiba::str.lit1_e_x(str,"BOUGERA_Ahmed")    #eph_hbb
-yahiatiba::str.lit1_e_x(str,"MOUHAD_Abdelkader")#eph_dje
-yahiatiba::str.lit1_e_x(str,"HATHAT_Boubaker")  #eph_mi
-yahiatiba::str.lit1_e_x(str,"HANI_Mohamed")#    eph_ma
-yahiatiba::str.lit1_e_x(str,"HENICHI_Mostapha") #eph_id
-yahiatiba::str.lit1_e_x(str,"KAKI_Mohamed")     #ehs_me
-yahiatiba::str.lit1_e_x(str,"ehs_oph")
-yahiatiba::str.lit1_e_x(str,"BENCHERIF_Ahmed")  #ehs_cac
+yahiatiba::str_lit1_e_x(str,"SAADAOUI_Mokhtar") #eph_ao
+yahiatiba::str_lit1_e_x(str,"eph_bi")
+yahiatiba::str_lit1_e_x(str,"BOUGERA_Ahmed")    #eph_hbb
+yahiatiba::str_lit1_e_x(str,"MOUHAD_Abdelkader")#eph_dje
+yahiatiba::str_lit1_e_x(str,"HATHAT_Boubaker")  #eph_mi
+yahiatiba::str_lit1_e_x(str,"HANI_Mohamed")#    eph_ma
+yahiatiba::str_lit1_e_x(str,"HENICHI_Mostapha") #eph_id
+yahiatiba::str_lit1_e_x(str,"KAKI_Mohamed")     #ehs_me
+yahiatiba::str_lit1_e_x(str,"ehs_oph")
+yahiatiba::str_lit1_e_x(str,"BENCHERIF_Ahmed")  #ehs_cac
 
-yahiatiba::str.lit1_e_x(str,"eph_khm")  #
-yahiatiba::str.lit1_e_x(str,"eph_sbh")  #
+yahiatiba::str_lit1_e_x(str,"eph_khm")  #
+yahiatiba::str_lit1_e_x(str,"eph_sbh")  #
 
-str.lit_wil(str)
-str.lit_dai(str)
-str.lit_com (str)
-str.lit_cs(str)
-str.lit_typ (str)
-str.lit_eta(str)
-str.lit_ser (str)
+str_lit_wil(str)
+str_lit_dai(str)
+str_lit_com (str)
+str_lit_cs(str)
+str_lit_typ (str)
+str_lit_eta(str)
+str_lit_ser (str)
 
-str.ser_lit(str,"gyneco obstetrique")
-str.ser_lit(str,"pediatrie")
-str.ser_lit(str,"chirurgie generale")
-str.ser_lit(str,"medecine interne")
-str.ser_lit(str,"ophtalmologie")
-str.ser_lit(str,"reanimation")
-str.ser_lit(str,"umc")
+str_ser_lit(str,"gyneco obstetrique")
+str_ser_lit(str,"pediatrie")
+str_ser_lit(str,"chirurgie generale")
+str_ser_lit(str,"medecine interne")
+str_ser_lit(str,"ophtalmologie")
+str_ser_lit(str,"reanimation")
+str_ser_lit(str,"umc")
 
 

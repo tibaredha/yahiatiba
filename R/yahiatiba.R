@@ -6,7 +6,7 @@
 #' @section yahiatiba functions:
 #' The yahiatiba functions ...
 #'
-#' @docType package
+#' @docType _package
 #' @name yahiatiba
 NULL
 #> NULL
