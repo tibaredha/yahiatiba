@@ -202,16 +202,11 @@ tibaautoarima1
 
 #### lits structure hospitaliere ####
 
-
 data(region_e_lit)
 str <- region_e_lit
 rm(region_e_lit)
-
-
 glimpse(str)
-
 levels(str$ETA)
-
 
 yahiatiba::str_lit1_e_x(str,"SAADAOUI_Mokhtar") #eph_ao
 yahiatiba::str_lit1_e_x(str,"eph_bi")
