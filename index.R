@@ -201,7 +201,12 @@ tibaautoarima1
 
 
 #### lits structure hospitaliere ####
-data(str)
+
+
+data(region_e_lit)
+str <- region_e_lit
+rm(region_e_lit)
+
 
 glimpse(str)
 
