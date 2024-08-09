@@ -116,8 +116,10 @@ library(forecast)
 # 1 create a function
   # use_r("function name")
   # edit function
-  # Code/insert roxygen skeleton
+  # vignette("rd")
+  # Code/insert roxygen2 skeleton
   # devtools::document()
+  # create man/function name.rd in latex form R uses to generate the documentation you see when you type ?str_length.
 
 # 2 test the function
   # usethis::use_testthat()  # create a folder test

@@ -3,6 +3,13 @@
 #' @param DF value
 #'
 #' @return value
+#' @author TIBA   Rdha, \email{tibaredha@@yahoo.fr}
+#' @references \url{https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors}
+#' @seealso \code{\link{brocolors}}
+#' @keywords hplot
+#' ...
+#' @importFrom dplyr  summarise
+#' @importFrom dplyr  group_by
 #' @export
 #'
 #' @examples value
