@@ -116,10 +116,12 @@ library(forecast)
 # 1 create a function
   # use_r("function name")
   # edit function
-  # vignette("rd")
+  # vignette("rd") =  Block are broken up by tag  = @tagName tagValue
   # Code/insert roxygen2 skeleton
-  # devtools::document()
+  # devtools::document() or roxygen2::roxygenise()
   # create man/function name.rd in latex form R uses to generate the documentation you see when you type ?str_length.
+  # help(function name) or ?function name to display the help of my function
+  # usethis::use_package_doc() create R/{pkgname}-package.R
 
 # 2 test the function
   # usethis::use_testthat()  # create a folder test
@@ -133,7 +135,8 @@ library(forecast)
   # Documenting function  roxygen2
   # devtools::document()
   # citation("yahiatiba")
-
+  
+  # vignette :: A vignette is a long-form guide to your package
   # usethis::use_vignette("my-vignette") create my-vignette.Rmd file  $ knitr to html vignette
   # browseVignettes()
   # browseVignettes("yahiatiba")

@@ -13,7 +13,7 @@ str_lit_wil(DF)
 value
 }
 \description{
-Title str.lit_wil
+descrimtio value tag
 }
 \examples{
 value

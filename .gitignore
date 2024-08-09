@@ -6,3 +6,4 @@
 .quarto
 inst/extdata
 docs
+inst/doc
