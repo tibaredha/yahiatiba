@@ -246,11 +246,17 @@ str_ser_lit(str,"umc")
 
 #### drh ####
 
-
+wilaya_nom <- "Wilaya de Djelfa"
 data(djelfa_drh)
 yahiatiba::drh_str(djelfa_drh)
-wilaya_nom <- "Wilaya de Djelfa"
 yahiatiba::drh_sa(djelfa_drh,wilaya_nom)
 yahiatiba::drh_ta(djelfa_drh,wilaya_nom)
 yahiatiba::drh_str_grade(djelfa_drh)
-#yahiatiba::drh_grade(djelfa_drh)
+suppressWarnings(yahiatiba::drh_grade(djelfa_drh))
+suppressWarnings(yahiatiba::drh_grade1(djelfa_drh,wilaya_nom))
+suppressWarnings(yahiatiba::drh_grades(djelfa_drh))
+suppressWarnings(yahiatiba::drh_specialite(djelfa_drh))
+suppressWarnings(yahiatiba::drh_str2(djelfa_drh))
+suppressWarnings(yahiatiba::drh_specialiste_str(djelfa_drh))
+suppressWarnings(yahiatiba::drh_specialiste_str1(djelfa_drh))
+
