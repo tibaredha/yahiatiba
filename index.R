@@ -135,9 +135,9 @@ library(forecast)
   # Documenting function  roxygen2
   # devtools::document()
   # citation("yahiatiba")
-  
+
   # vignette :: A vignette is a long-form guide to your package
-  # usethis::use_vignette("my-vignette") create my-vignette.Rmd file  $ knitr to html vignette
+  # usethis::use_vignette("my-vignette") create my-vignette.Rmd file  $ knitr to html vignette usethis::use_vignette("my-vignette")
   # browseVignettes()
   # browseVignettes("yahiatiba")
   # vignette() vignette("mdo-vignette",package = "yahiatiba")
@@ -244,3 +244,13 @@ str_ser_lit(str,"reanimation")
 str_ser_lit(str,"umc")
 
 
+#### drh ####
+
+
+data(djelfa_drh)
+yahiatiba::drh_str(djelfa_drh)
+wilaya_nom <- "Wilaya de Djelfa"
+yahiatiba::drh_sa(djelfa_drh,wilaya_nom)
+yahiatiba::drh_ta(djelfa_drh,wilaya_nom)
+yahiatiba::drh_str_grade(djelfa_drh)
+#yahiatiba::drh_grade(djelfa_drh)
