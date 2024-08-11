@@ -1,5 +1,5 @@
 print("tibaredha")
-
+# tibaredha
 import  numpy as np
 import  pandas as pd
 import matplotlib.pyplot as plt
@@ -10,3 +10,11 @@ print(df1)
 
 df.plot(kind = 'scatter', x = 'COMMUNER', y = 'SEX')
 plt.show()
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+
