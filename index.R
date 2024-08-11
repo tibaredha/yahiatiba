@@ -273,3 +273,9 @@ suppressWarnings(yahiatiba::drh_specialiste_str(djelfa_drh))
 suppressWarnings(yahiatiba::drh_specialiste_str1(djelfa_drh))
 >>>>>>> ad0a36969a330cb42c70bc2f81507827fffe6883
 
+
+
+suppressWarnings(yahiatiba::drh_specialiste_str1(djelfa_drh))
+
+
+
