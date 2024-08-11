@@ -17,4 +17,5 @@ def myfunc():
 
 myfunc()
 
+del plt
 
