@@ -245,18 +245,33 @@ str_ser_lit(str,"umc")
 
 
 #### drh ####
-
+library(yahiatiba)
 wilaya_nom <- "Wilaya de Djelfa"
 data(djelfa_drh)
-yahiatiba::drh_str(djelfa_drh)
-yahiatiba::drh_sa(djelfa_drh,wilaya_nom)
-yahiatiba::drh_ta(djelfa_drh,wilaya_nom)
-yahiatiba::drh_str_grade(djelfa_drh)
-suppressWarnings(yahiatiba::drh_grade(djelfa_drh))
-suppressWarnings(yahiatiba::drh_grade1(djelfa_drh,wilaya_nom))
-suppressWarnings(yahiatiba::drh_grades(djelfa_drh))
-suppressWarnings(yahiatiba::drh_specialite(djelfa_drh))
-suppressWarnings(yahiatiba::drh_str2(djelfa_drh))
-suppressWarnings(yahiatiba::drh_specialiste_str(djelfa_drh))
-suppressWarnings(yahiatiba::drh_specialiste_str1(djelfa_drh))
+colnames(djelfa_drh)
+# debut  trasformation pour regler le probleme d encodage
+names(djelfa_drh)[8] <- "specialité"  # change the name of column with problem
+colnames(djelfa_drh)
+djelfa_drh <- djelfa_drh %>%
+  mutate(specialité=iconv(specialité, "LATIN2", "UTF-8")) #%>% view()
+djelfa_drh <- djelfa_drh %>%
+  mutate(grade=iconv(grade, "LATIN2", "UTF-8")) #%>% view()
+# fin transformation
+
+drh_str(djelfa_drh)
+drh_sa(djelfa_drh,wilaya_nom)
+drh_ta(djelfa_drh,wilaya_nom)
+drh_str_grade(djelfa_drh)
+suppressWarnings(drh_grade(djelfa_drh))
+suppressWarnings(drh_grade1(djelfa_drh,wilaya_nom))
+suppressWarnings(drh_grades(djelfa_drh))
+suppressWarnings(drh_specialite(djelfa_drh))
+suppressWarnings(drh_str2(djelfa_drh))
+suppressWarnings(drh_specialiste_str(djelfa_drh))
+suppressWarnings(drh_specialiste_str1(djelfa_drh))
+
+
+
+
+
 
