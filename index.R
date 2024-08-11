@@ -274,7 +274,6 @@ suppressWarnings(yahiatiba::drh_specialiste_str1(djelfa_drh))
 
 
 
-suppressWarnings(yahiatiba::drh_specialiste_str1(djelfa_drh))
 
 
 
