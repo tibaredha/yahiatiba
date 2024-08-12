@@ -273,7 +273,13 @@ suppressWarnings(yahiatiba::drh_specialiste_str(djelfa_drh))
 suppressWarnings(yahiatiba::drh_specialiste_str1(djelfa_drh))
 
 
+#https://forum.posit.co/t/install-packages-does-not-install-dependencies-on-ubuntu-linux-very-bad-problem/175106/7
+# https://www.youtube.com/@DrJBanta/videos
+to_reinstall <- installed.packages()
+write.csv(to_reinstall,"./packages.csv")
+.libPaths()
 
-
+to_reinstall <- read.csv("SOMEWHERE SAFE")
+install.packages(to_reinstall, ask = FALSE)
 
 
