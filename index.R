@@ -11,7 +11,44 @@ section("")
 banner("Section 1:", "Data input","hhhh", emph = TRUE)
 
 #### tiba ####
-# sdfsdfsd ----
+
+session_info()
+file.path(R.home(), "usr/bin")
+list.files()
+
+
+Sys.setenv(PATH = paste("C:/rtools40/bin/", Sys.getenv("PATH"), sep=";"))
+Sys.setenv(PATH = paste("C:/rtools40/mingw32/bin/", Sys.getenv("PATH"), sep=";"))
+Sys.setenv(PATH = paste("C:/rtools40/mingw64/bin/", Sys.getenv("PATH"), sep=";"))
+Sys.setenv(PATH = paste("C:/rtools40/ucrt64/bin/", Sys.getenv("PATH"), sep=";"))
+Sys.setenv(PATH = paste("C:/rtools40/usr/bin/", Sys.getenv("PATH"), sep=";"))
+
+Sys.setenv(BINPREF = "C:/Rtools/mingw32/bin/")
+Sys.setenv(BINPREF = "C:/Rtools/mingw64/bin/")
+Sys.setenv(BINPREF = "C:/Rtools/ucrt64/bin/")
+
+writeLines(strsplit(Sys.getenv("PATH"), ";")[[1]])
+Sys.getenv("PATH")
+Sys.getenv("BINPREF")
+Sys.getenv("nom")
+Sys.getenv("prenom")
+Sys.getenv("RTOOLS40_HOME")
+Sys.setenv(PATH = paste("C:\\rtools40\\mingw64\\bin\\", Sys.getenv("PATH"), sep=";"))
+
+
+
+Sys.which("make")
+Sys.which("gcc")
+
+write('PATH="${RTOOLS40_HOME}\\usr\\bin;${PATH}"', file = "~/.Renviron", append = TRUE)
+
+pkgbuild::check_rtools(TRUE)
+pkgbuild::has_rtools(TRUE)
+pkgbuild::has_build_tools(debug=TRUE)
+devtools::find_rtools(debug=TRUE)
+remotes::install_github("tibaredha/yahiatiba")
+
+
 
 
 
