@@ -12,20 +12,31 @@ banner("Section 1:", "Data input","hhhh", emph = TRUE)
 
 #### tiba ####
 
+#https://forum.posit.co/t/install-packages-does-not-install-dependencies-on-ubuntu-linux-very-bad-problem/175106/7
+# https://www.youtube.com/@DrJBanta/videos
+to_reinstall <- installed.packages()
+write.csv(to_reinstall,"./packages.csv")
+.libPaths()
+to_reinstall[,1]
+to_reinstall <- read.csv("SOMEWHERE SAFE")
+install.packages(to_reinstall[,1], ask = FALSE)
+
+
+
 session_info()
 file.path(R.home(), "usr/bin")
 list.files()
 
 
-Sys.setenv(PATH = paste("C:/rtools40/bin/", Sys.getenv("PATH"), sep=";"))
-Sys.setenv(PATH = paste("C:/rtools40/mingw32/bin/", Sys.getenv("PATH"), sep=";"))
-Sys.setenv(PATH = paste("C:/rtools40/mingw64/bin/", Sys.getenv("PATH"), sep=";"))
-Sys.setenv(PATH = paste("C:/rtools40/ucrt64/bin/", Sys.getenv("PATH"), sep=";"))
-Sys.setenv(PATH = paste("C:/rtools40/usr/bin/", Sys.getenv("PATH"), sep=";"))
-
-Sys.setenv(BINPREF = "C:/Rtools/mingw32/bin/")
-Sys.setenv(BINPREF = "C:/Rtools/mingw64/bin/")
-Sys.setenv(BINPREF = "C:/Rtools/ucrt64/bin/")
+# Sys.setenv(PATH = paste("C:/rtools40/bin/", Sys.getenv("PATH"), sep=";"))
+# Sys.setenv(PATH = paste("C:/rtools40/mingw32/bin/", Sys.getenv("PATH"), sep=";"))
+# Sys.setenv(PATH = paste("C:/rtools40/mingw64/bin/", Sys.getenv("PATH"), sep=";"))
+# Sys.setenv(PATH = paste("C:/rtools40/ucrt64/bin/", Sys.getenv("PATH"), sep=";"))
+# Sys.setenv(PATH = paste("C:/rtools40/usr/bin/", Sys.getenv("PATH"), sep=";"))
+#
+# Sys.setenv(BINPREF = "C:/Rtools/mingw32/bin/")
+# Sys.setenv(BINPREF = "C:/Rtools/mingw64/bin/")
+# Sys.setenv(BINPREF = "C:/Rtools/ucrt64/bin/")
 
 writeLines(strsplit(Sys.getenv("PATH"), ";")[[1]])
 Sys.getenv("PATH")
@@ -33,14 +44,14 @@ Sys.getenv("BINPREF")
 Sys.getenv("nom")
 Sys.getenv("prenom")
 Sys.getenv("RTOOLS40_HOME")
-Sys.setenv(PATH = paste("C:\\rtools40\\mingw64\\bin\\", Sys.getenv("PATH"), sep=";"))
+#Sys.setenv(PATH = paste("C:\\rtools40\\mingw64\\bin\\", Sys.getenv("PATH"), sep=";"))
 
 
 
 Sys.which("make")
 Sys.which("gcc")
 
-write('PATH="${RTOOLS40_HOME}\\usr\\bin;${PATH}"', file = "~/.Renviron", append = TRUE)
+#write('PATH="${RTOOLS40_HOME}\\usr\\bin;${PATH}"', file = "~/.Renviron", append = TRUE)
 
 pkgbuild::check_rtools(TRUE)
 pkgbuild::has_rtools(TRUE)
@@ -296,7 +307,7 @@ djelfa_drh <- djelfa_drh %>%
   mutate(grade=iconv(grade, "LATIN2", "UTF-8")) #%>% view()
 # fin transformation
 
-
+profvis::profvis(yahiatiba::drh_str(djelfa_drh))# verifier le temp dexecution
 yahiatiba::drh_str(djelfa_drh)
 yahiatiba::drh_sa(djelfa_drh,wilaya_nom)
 yahiatiba::drh_ta(djelfa_drh,wilaya_nom)
@@ -310,13 +321,10 @@ suppressWarnings(yahiatiba::drh_specialiste_str(djelfa_drh))
 suppressWarnings(yahiatiba::drh_specialiste_str1(djelfa_drh))
 
 
-#https://forum.posit.co/t/install-packages-does-not-install-dependencies-on-ubuntu-linux-very-bad-problem/175106/7
-# https://www.youtube.com/@DrJBanta/videos
-to_reinstall <- installed.packages()
-write.csv(to_reinstall,"./packages.csv")
-.libPaths()
 
-to_reinstall <- read.csv("SOMEWHERE SAFE")
-install.packages(to_reinstall, ask = FALSE)
+
+
+
+
 
 
