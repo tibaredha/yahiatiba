@@ -190,6 +190,10 @@ library(forecast)
   # browseVignettes("yahiatiba")
   # vignette() vignette("mdo-vignette",package = "yahiatiba")
   # devtools::build_rmd("vignettes/mdo-vignette.Rmd") devtools::build_vignettes()
+  
+  # pkgdown  create a web_site  for mypakages
+  # usethis::use_pakgdown()
+  # pakgdown::build_site()
 
 
 # 4 version
