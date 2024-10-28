@@ -190,8 +190,9 @@ library(forecast)
   # browseVignettes("yahiatiba")
   # vignette() vignette("mdo-vignette",package = "yahiatiba")
   # devtools::build_rmd("vignettes/mdo-vignette.Rmd") devtools::build_vignettes()
-  
-  # pkgdown  create a web_site  for mypakages
+
+  # pkgdown  create a web_site  for mypakages : https://pkgdown.r-lib.org/
+  # usethis::use_pkgdown_github_pages() # Run this once to publish your site regularly
   # usethis::use_pakgdown()
   # pakgdown::build_site()
 
@@ -265,19 +266,61 @@ rm(region_e_lit)
 glimpse(str)
 levels(str$ETA)
 
+# aindefla
+yahiatiba::str_lit1_e_x(str,"MAKOUR_Hamou")     #
+yahiatiba::str_lit1_e_x(str,"eph_atf")          #
+yahiatiba::str_lit1_e_x(str,"LATRACHE_Ahmed")   #
+yahiatiba::str_lit1_e_x(str,"FARES_Yahia")      #
+
+#chlef
+yahiatiba::str_lit1_e_x(str,"eph_amr")      #
+yahiatiba::str_lit1_e_x(str,"eph_chr")      #
+yahiatiba::str_lit1_e_x(str,"eph_cht")      #
+yahiatiba::str_lit1_e_x(str,"eph_olm")      #
+yahiatiba::str_lit1_e_x(str,"eph_sbh")      #
+yahiatiba::str_lit1_e_x(str,"eph_srb")      #
+yahiatiba::str_lit1_e_x(str,"eph_tnsa")     #
+yahiatiba::str_lit1_e_x(str,"eph_tnsz")     #
+yahiatiba::str_lit1_e_x(str,"ehs_tns")      #
+
+#medea
+yahiatiba::str_lit1_e_x(str,"eph_abcf")      #
+yahiatiba::str_lit1_e_x(str,"Benyoucef_Benkhedda")      #
+yahiatiba::str_lit1_e_x(str,"eph_bslm")      #
+yahiatiba::str_lit1_e_x(str,"eph_chl")      #
+yahiatiba::str_lit1_e_x(str,"eph_kbk")      #
+yahiatiba::str_lit1_e_x(str,"Mohamed_Boudiaf")      #
+yahiatiba::str_lit1_e_x(str,"eph_tblt")      #
+
+# djelfa
+yahiatiba::str_lit1_e_x(str,"eph_bi")           #eph birine
 yahiatiba::str_lit1_e_x(str,"SAADAOUI_Mokhtar") #eph_ao
-yahiatiba::str_lit1_e_x(str,"eph_bi")
 yahiatiba::str_lit1_e_x(str,"BOUGERA_Ahmed")    #eph_hbb
 yahiatiba::str_lit1_e_x(str,"MOUHAD_Abdelkader")#eph_dje
 yahiatiba::str_lit1_e_x(str,"HATHAT_Boubaker")  #eph_mi
+yahiatiba::str_lit1_e_x(str,"KAKI_Mohamed")     #ehs_me
+yahiatiba::str_lit1_e_x(str,"ehs_oph")          #"h ophtalmo
+yahiatiba::str_lit1_e_x(str,"BENCHERIF_Ahmed")  #ehs_cac
 yahiatiba::str_lit1_e_x(str,"HANI_Mohamed")#    eph_ma
 yahiatiba::str_lit1_e_x(str,"HENICHI_Mostapha") #eph_id
-yahiatiba::str_lit1_e_x(str,"KAKI_Mohamed")     #ehs_me
-yahiatiba::str_lit1_e_x(str,"ehs_oph")
-yahiatiba::str_lit1_e_x(str,"BENCHERIF_Ahmed")  #ehs_cac
 
-yahiatiba::str_lit1_e_x(str,"eph_khm")  #
-yahiatiba::str_lit1_e_x(str,"eph_sbh")  #
+#msila
+yahiatiba::str_lit1_e_x(str,"eph_alm")      #
+yahiatiba::str_lit1_e_x(str,"eph_bns")      #
+yahiatiba::str_lit1_e_x(str,"eph_sda")      #
+yahiatiba::str_lit1_e_x(str,"eph_bsd")      #
+yahiatiba::str_lit1_e_x(str,"eph_mgr")      #
+yahiatiba::str_lit1_e_x(str,"eph_msl")      #
+yahiatiba::str_lit1_e_x(str,"ehs_me")      #
+yahiatiba::str_lit1_e_x(str,"ehs_psc")      #
+
+#laghouat
+yahiatiba::str_lit1_e_x(str,"eph_lgt")      #
+yahiatiba::str_lit1_e_x(str,"eph_mxt")      #
+yahiatiba::str_lit1_e_x(str,"eph_afl")      #
+yahiatiba::str_lit1_e_x(str,"eph_ksh")      #
+yahiatiba::str_lit1_e_x(str,"ehs_mel")      #
+yahiatiba::str_lit1_e_x(str,"ehs_mea")      #
 
 str_lit_wil(str)
 str_lit_dai(str)
@@ -303,12 +346,12 @@ data(djelfa_drh)
 
 colnames(djelfa_drh)
 # debut  trasformation pour regler le probleme d encodage
-names(djelfa_drh)[8] <- "specialité"  # change the name of column with problem
-colnames(djelfa_drh)
-djelfa_drh <- djelfa_drh %>%
-  mutate(specialité=iconv(specialité, "LATIN2", "UTF-8")) #%>% view()
-djelfa_drh <- djelfa_drh %>%
-  mutate(grade=iconv(grade, "LATIN2", "UTF-8")) #%>% view()
+# names(djelfa_drh)[8] <- "specialité"  # change the name of column with problem
+# colnames(djelfa_drh)
+# djelfa_drh <- djelfa_drh %>%
+#   mutate(specialité=iconv(specialité, "LATIN2", "UTF-8")) #%>% view()
+# djelfa_drh <- djelfa_drh %>%
+#   mutate(grade=iconv(grade, "LATIN2", "UTF-8")) #%>% view()
 # fin transformation
 
 profvis::profvis(yahiatiba::drh_str(djelfa_drh))# verifier le temp dexecution
