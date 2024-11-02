@@ -19,7 +19,7 @@ write.csv(to_reinstall,"./packages.csv")
 .libPaths()
 to_reinstall[,1]
 to_reinstall <- read.csv("SOMEWHERE SAFE")
-install.packages(to_reinstall[,1], ask = FALSE)
+#install.packages(to_reinstall[,1], ask = FALSE)
 
 
 
@@ -94,9 +94,9 @@ df %>% dplyr::select(DATE) %>%
 #df <- yahiatiba::mdo %>% dplyr::filter(PATHOLOGIE=="Rougeole")
 
 
-yahiatiba::declaration_a(df)
-yahiatiba::declaration_e(df)
-yahiatiba::declaration_c(df,pop)
+yahiatiba::declaration_a(df) # année mois
+yahiatiba::declaration_e(df) # etatblissement sexe
+yahiatiba::declaration_c(df,pop) # commune sexe population
 
 yahiatiba::declaration_ta(df)
 yahiatiba::decpta_epsp(df)
@@ -190,7 +190,7 @@ library(forecast)
   # browseVignettes("yahiatiba")
   # vignette() vignette("mdo-vignette",package = "yahiatiba")
   # devtools::build_rmd("vignettes/mdo-vignette.Rmd") devtools::build_vignettes()
-  
+
   # pkgdown  create a web_site  for mypakages
   # usethis::use_pakgdown()
   # pakgdown::build_site()
