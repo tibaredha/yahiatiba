@@ -1,13 +1,9 @@
+
+# fichier 1 wilaya dairas commune
 ## code to prepare `wdc` dataset goes here
 # methode 1 inst/extdata
-devtools::load_all(".")
-#wilaya <- "chlef"
-#wilaya <- "aindefla"
-#wilaya <- "medea"
-#wilaya <- "djelfa"
-#wilaya <- "laghouat"
-#wilaya <- "msila"
 
+devtools::load_all(".")
 
 wilayax <- function(wilaya) {
   url1 <- yahiatiba::read_ext( paste0(wilaya,"/communes.csv")) # sep="," ,,fileEncoding = "latin1"

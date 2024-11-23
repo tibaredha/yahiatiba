@@ -1,3 +1,5 @@
+# fichier 4 MDO
+
 # methode 1 inst/extdata
 file <- yahiatiba::read_ext("mdof.csv")
 mdo <- read.csv(file)
