@@ -191,12 +191,12 @@ library(forecast)
   # vignette() vignette("mdo-vignette",package = "yahiatiba")
   # devtools::build_rmd("vignettes/mdo-vignette.Rmd") devtools::build_vignettes()
 
-<<<<<<< HEAD
+
   # pkgdown  create a web_site  for mypakages
-=======
+
   # pkgdown  create a web_site  for mypakages : https://pkgdown.r-lib.org/
   # usethis::use_pkgdown_github_pages() # Run this once to publish your site regularly
->>>>>>> 1f6399ac74643931a744a1cd60b8e21aab19aee0
+
   # usethis::use_pakgdown()
   # pakgdown::build_site()
 
