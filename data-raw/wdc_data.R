@@ -38,4 +38,4 @@ rm(chlef,aindefla,medea,djelfa,laghouat,msila)
 usethis::use_data(wdc, overwrite = TRUE)
 
 devtools::load_all(".")
-yahiatiba::wdc
+wdc <- yahiatiba::wdc

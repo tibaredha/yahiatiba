@@ -17,7 +17,7 @@ banner("Section 1:", "Data input","hhhh", emph = TRUE)
 
 
 #import ( graphics )            #Pour le package integralement
-#importFrom ( graphics , plot ) #Pour une unique fonction en lui pr´ecisant le nom du package puis celui de la fonction
+#importFrom ( graphics , plot ) #Pour une unique fonction en lui pr?ecisant le nom du package puis celui de la fonction
 
 
 # cfg
@@ -110,3 +110,10 @@ banner("Section 1:", "Data input","hhhh", emph = TRUE)
   # lifecycle::badge('deprecated') ??
 
 # use_r() usethis::use_test() devtools::test() devtools::document() devtools::load_all(".")
+
+
+
+
+
+
+
