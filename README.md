@@ -1,8 +1,8 @@
 
-# ggplot2 <a href="https://ggplot2.tidyverse.org"><img src="man/figures/logo.png" align="right" height="138" alt="ggplot2 website" /></a>
+# yahiatiba <a href="https://tibaredha.com"><img src="man/figures/logo.png" align="right" height="138" alt="yahiatiba website" /></a>
 
 
-# yahiatiba
+
 
 <!-- badges: start -->
 
