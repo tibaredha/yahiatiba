@@ -23,3 +23,40 @@
 #'
 #' @source \url{https://dhsprogram.com/data/Download-Model-Datasets.cfm}
 "declaration_c"
+
+
+
+#' wc_region sh data
+#'
+#' A subset of data from the wca
+#'
+#'
+#' @format ## `wc_region`
+#' A data frame with 224 rows and 4 columns:
+#' \describe{
+#'   \item{pay}{Algerie }
+#'   \item{region}{Médéa}
+#'   \item{year}{2024}
+#' }
+#' @source <https://tibaredha/>
+"wc_region"
+
+#' wc_algeria sh data
+#'
+#' A subset of data from the wca
+#'
+#'
+#' @format ## `wc_algeria`
+#' A data frame with 224 rows and 4 columns:
+#' \describe{
+#'   \item{pay}{Algerie }
+#'   \item{wilaya}{48 wilayas}
+#'   \item{year}{2024}
+#' }
+#' @source <https://tibaredha/>
+"wc_algeria"
+
+
+
+
+
