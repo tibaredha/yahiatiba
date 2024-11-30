@@ -81,7 +81,9 @@ banner("Section 1:", "Data input","hhhh", emph = TRUE)
 
 
 # 3 document
-  # package           usethis::use_package_doc()
+  # 3.1 package           
+  # usethis::use_package_doc()  create a fille R/{pkgname}-package.R dont work ????? 
+  # create a file R/{pkgname}.R  like yahiatiba.R                    work ok
   # Documenting data  use_r("data") the template is below
   # Documenting function  roxygen2
   # devtools::document()
