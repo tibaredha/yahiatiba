@@ -97,6 +97,7 @@ banner("Section 1:", "Data input","hhhh", emph = TRUE)
   # 1- usethis::use_pkgdown()
   # 2- pkgdown::build_site()
   # 3-usethis::use_pkgdown_github_pages() # Run this once to publish your site regularly
+  # error  add folder : man/figures/*.svg to docs/  
 
 # 4 version
   # usethis::use_version()      to incremente version in description file
