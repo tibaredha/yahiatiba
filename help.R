@@ -21,11 +21,12 @@ banner("Section 1:", "Data input","hhhh", emph = TRUE)
 
 
 # cfg
+  # usethis::use_package("ggplot2", type = "imports")   packages that your package requires to work
+  # usethis::use_package("ggplot2", type = "suggests")  packages that developers of your package need
   # usethis::use_package("dplyr")
   # usethis::use_package("dplyr", min_version = "1.0.0")
   # usethis::use_package("dplyr", min_version = TRUE)
-  # usethis::use_package("ggplot2", "Suggests")
-  # usethis::use_package("ggplot2", "imports")
+
   # usethis::use_readme_md()
   # usethis::use_news_md()
   # usethis::use_roxygen_md()
@@ -86,21 +87,16 @@ banner("Section 1:", "Data input","hhhh", emph = TRUE)
   # devtools::document()
   # citation("yahiatiba")
 
-  # vignette :: A vignette is a long-form guide to your package
-  # usethis::use_vignette("my-vignette") create my-vignette.Rmd file  $ knitr to html vignette usethis::use_vignette("my-vignette")
-  # browseVignettes()
-  # browseVignettes("yahiatiba")
-  # vignette() vignette("mdo-vignette",package = "yahiatiba")
-  # devtools::build_rmd("vignettes/mdo-vignette.Rmd") devtools::build_vignettes()
-
-
-  # pkgdown  create a web_site  for mypakages
-  # pkgdown  create a web_site  for mypakages : https://pkgdown.r-lib.org/
-  # usethis::use_pkgdown_github_pages() # Run this once to publish your site regularly
-
-  # usethis::use_pakgdown()
-  # pakgdown::build_site()
-
+  # 3.2 vignette : A vignette is a long-form guide to your package
+  # 1-usethis::use_vignette("my-vignette") create my-vignette.Rmd file  and clic butun knit to get  html vignette 
+  # 2-devtools::build_vignettes()
+  # 3-browseVignettes("yahiatiba") to display the vignette
+  # 4-browseVignettes()
+ 
+  # 3.3 pkgdown :  create a web_site  for mypakages : https://pkgdown.r-lib.org/
+  # 1- usethis::use_pkgdown()
+  # 2- pkgdown::build_site()
+  # 3-usethis::use_pkgdown_github_pages() # Run this once to publish your site regularly
 
 # 4 version
   # usethis::use_version()      to incremente version in description file

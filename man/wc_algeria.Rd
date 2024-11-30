@@ -24,4 +24,7 @@ wc_algeria
 \description{
 A subset of data from the wca
 }
+\details{
+\code{tibaredha \link{tibaredha}}
+}
 \keyword{datasets}

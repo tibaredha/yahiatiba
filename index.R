@@ -166,7 +166,7 @@ str <- region_e_lit
 rm(region_e_lit)
 glimpse(str)
 levels(str$ETA)
-
+library(kableExtra)
 # aindefla
 yahiatiba::str_lit1_e_x(str,"MAKOUR_Hamou")     #
 yahiatiba::str_lit1_e_x(str,"eph_atf")          #
@@ -330,9 +330,6 @@ carte_w_c_pv (df,'Msila')
 
 #
 #plot(sigf["POP"])
-
-
-
 
 
 

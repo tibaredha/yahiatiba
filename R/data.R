@@ -45,7 +45,7 @@
 #'
 #' A subset of data from the wca
 #'
-#'
+#'\code{tibaredha \link{tibaredha}}
 #' @format ## `wc_algeria`
 #' A data frame with 224 rows and 4 columns:
 #' \describe{
