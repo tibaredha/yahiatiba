@@ -81,8 +81,8 @@ library(roxygen2)
 
 # 3 document ----
   # 3.1 package
-  # usethis::use_package_doc()  create a fille R/{pkgname}-package.R dont work ?????
-  # create a file R/{pkgname}.R  like yahiatiba.R                    work ok
+  # usethis::use_package_doc()    create a fille R/{pkgname}-package.R dont work ?????
+  # create a file R/{pkgname}.R  like yahiatiba.R                    work ok     ?????
   # Documenting data  use_r("data") the template is below
   # Documenting function  roxygen2
   # devtools::document()

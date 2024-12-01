@@ -93,11 +93,17 @@ yahiatiba::wc_region
 # 6 exemple ----
 devtools::load_all(".")
 
+?yahiatiba::shp_dz
 yahiatiba::shp_dz
+
+?yahiatiba::shp_dzw
 yahiatiba::shp_dzw
+?yahiatiba::shp_dzc
 yahiatiba::shp_dzc
 
+?yahiatiba::shp_dzrw
 yahiatiba::shp_dzrw
+?yahiatiba::shp_dzrc
 yahiatiba::shp_dzrc
 
 
