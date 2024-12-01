@@ -88,24 +88,31 @@ library(roxygen2)
   # devtools::document()
   # citation("yahiatiba")
 
-  # 3.2 vignette : A vignette is a long-form guide to your package
-  # 1-usethis::use_vignette("my-vignette") create my-vignette.Rmd file  and clic butun knit to get  html vignette
-  # 2-devtools::build_vignettes()
-  # 3-browseVignettes("yahiatiba") to display the vignette
-  # 4-browseVignettes()
-
-  # 3.3 pkgdown :  create a web_site  for mypakages : https://pkgdown.r-lib.org/
-  # 1- usethis::use_pkgdown()
-  # 2- pkgdown::build_site()
-  # 3-usethis::use_pkgdown_github_pages() # Run this once to publish your site regularly
-  # error  add folder : man/figures/*.svg to docs/
-
-# 4 version ----
   # usethis::use_version()      to incremente version in description file
   # usethis::use_lifecycle()    generate svg file and look at the read me file
   # lifecycle::badge("experimental") ??
   # lifecycle::badge('superseded') ??
   # lifecycle::badge('deprecated') ??
+
+
+
+
+
+  # 3.2 pkgdown :  create a web_site  for mypakages : https://pkgdown.r-lib.org/
+  # 1- usethis::use_pkgdown()
+  # 2- pkgdown::build_site()
+  # 3-usethis::use_pkgdown_github_pages() # Run this once to publish your site regularly
+  # error  add folder : man/figures/*.svg to docs/
+
+  # 3.3 vignette : A vignette is a long-form guide to your package
+  # 1-usethis::use_vignette("my-vignette") create my-vignette.Rmd file  and clic butun knit to get  html vignette
+  # 2-devtools::build_vignettes()
+  # 3-browseVignettes("yahiatiba") to display the vignette
+  # 4-browseVignettes()
+
+  # https://tibaredha.github.io/yahiatiba/index.html
+
+
 
 # use_r() usethis::use_test() devtools::test() devtools::document() devtools::load_all(".")
 
