@@ -5,7 +5,6 @@
 .DS_Store
 .quarto
 inst/extdata
-docs
 inst/doc
 /doc/
 /Meta/
