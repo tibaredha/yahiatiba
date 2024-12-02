@@ -81,28 +81,25 @@ library(roxygen2)
 
 # 3 document ----
   # 3.1 package
-  # usethis::use_package_doc()    create a fille R/{pkgname}-package.R dont work ?????
-  # create a file R/{pkgname}.R  like yahiatiba.R                    work ok     ?????
+  # usethis::use_package_doc()    create a fille R/{pkgname}-package.R it work but problem
+  # apres instalation le probleme disparait ??????
   # Documenting data  use_r("data") the template is below
   # Documenting function  roxygen2
   # devtools::document()
   # citation("yahiatiba")
 
-  # usethis::use_version()      to incremente version in description file
-  # usethis::use_lifecycle()    generate svg file and look at the read me file
-  # lifecycle::badge("experimental") ??
-  # lifecycle::badge("stable")       ??
-  # lifecycle::badge('superseded')   ??
-  # lifecycle::badge('deprecated')   ??
-
-
-
-
+  # usethis::use_version()               to incremente version in description file
+  # usethis::use_lifecycle()             generate svg file and look at the read me file
+  # lifecycle::badge("experimental") ?? `r lifecycle::badge("experimental")`
+  # lifecycle::badge("stable")       ?? `r lifecycle::badge("stable")`  quand je document fc()
+  # lifecycle::badge('superseded')   ?? `r lifecycle::badge("superseded")`
+  # lifecycle::badge('deprecated')   ?? `r lifecycle::badge("deprecated")` Dépassé, périmé
 
   # 3.2 pkgdown :  create a web_site  for mypakages : https://pkgdown.r-lib.org/
-  # 1- usethis::use_pkgdown()
+  # Remove docs/ from gitignore to ensure it is checked into git.
+  # 1- usethis::use_pkgdown()             
   # 2- pkgdown::build_site()
-  # 3-usethis::use_pkgdown_github_pages() # Run this once to publish your site regularly
+  # 3- usethis::use_pkgdown_github_pages() # Run this once to publish your site regularly
   # error  add folder : man/figures/*.svg to docs/
 
   # 3.3 vignette : A vignette is a long-form guide to your package
