@@ -91,8 +91,9 @@ library(roxygen2)
   # usethis::use_version()      to incremente version in description file
   # usethis::use_lifecycle()    generate svg file and look at the read me file
   # lifecycle::badge("experimental") ??
-  # lifecycle::badge('superseded') ??
-  # lifecycle::badge('deprecated') ??
+  # lifecycle::badge("stable")       ??
+  # lifecycle::badge('superseded')   ??
+  # lifecycle::badge('deprecated')   ??
 
 
 

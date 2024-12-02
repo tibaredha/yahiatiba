@@ -1,16 +1,16 @@
 #' @title Package description
-#' @name yahiatiba
+#' @name mapsf
 #' @description
 #' Create and integrate thematic maps in your workflow. This package
 #' helps to design various cartographic representations such as proportional
 #' symbols, choropleth or typology maps. It also offers several functions to
 #' display layout elements that improve the graphic presentation of maps
-#' (e.g. scale bar, north arrow, title, labels). `yahiatiba` maps `sf` objects on
+#' (e.g. scale bar, north arrow, title, labels). `mapsf` maps `sf` objects on
 #' `base` graphics.
 #'
 #'
 #' A "Get Started" **vignette** contains commented scripts on how to create
-#' various maps: `vignette(topic = "yahiatiba", package = "yahiatiba")`
+#' various maps: `vignette(topic = "mapsf", package = "mapsf")`
 #'
 #' @section Symbology:
 #' These functions display cartographic layers.
@@ -49,5 +49,3 @@
 #'
 #' @docType package
 "_PACKAGE"
-
-
