@@ -86,7 +86,7 @@ library(roxygen2)
   # Documenting data  use_r("data") the template is below
   # Documenting function  roxygen2
   # devtools::document()
-  # citation("yahiatiba")
+  # citation("yahiatiba") usethis::use_citation() ???
 
   # usethis::use_version()               to incremente version in description file
   # usethis::use_lifecycle()             generate svg file and look at the read me file
@@ -97,7 +97,7 @@ library(roxygen2)
 
   # 3.2 pkgdown :  create a web_site  for mypakages : https://pkgdown.r-lib.org/
   # Remove docs/ from gitignore to ensure it is checked into git.
-  # 1- usethis::use_pkgdown()             
+  # 1- usethis::use_pkgdown()
   # 2- pkgdown::build_site()
   # 3- usethis::use_pkgdown_github_pages() # Run this once to publish your site regularly
   # error  add folder : man/figures/*.svg to docs/
@@ -110,7 +110,10 @@ library(roxygen2)
 
   # https://tibaredha.github.io/yahiatiba/index.html
 
-
+# usethis::use_rmarkdown_template("note-mensuelle") create a template *.rmd
+  # Pour créer un modèle de document R Markdown dans votre package
+  # Il ne vous reste plus qu’à éditer le fichier
+  # inst/rmarkdown/templates/note-mensuelle/skeleton/skeleton.Rmd
 
 # use_r() usethis::use_test() devtools::test() devtools::document() devtools::load_all(".")
 

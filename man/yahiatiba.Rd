@@ -61,18 +61,17 @@ These functions are dedicated to the map layout design.
 }
 
 \author{
-\strong{Maintainer}: Redha TIBA \email{prenom.nom@insee.fr}
+\strong{Maintainer}: Redha TIBA \email{tibaredha@yahoo.fr}
 
 Authors:
 \itemize{
-  \item Redha TIBA
   \item azzedine BOULAOUCHE
 }
 
 Other contributors:
 \itemize{
-  \item xx yyy [contributor]
-  \item  Institut national de la statistique et des études économiques [copyright holder]
+  \item mimi amrane [contributor]
+  \item  Direction de la santé et de la population de la wilaya de djelfa [copyright holder]
 }
 
 }
