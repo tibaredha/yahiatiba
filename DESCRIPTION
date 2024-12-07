@@ -1,14 +1,13 @@
 Package: yahiatiba
-Title: maladie a declaration obligatoire
-Version: 0.0.0.9003
+Title: package R model
+Version: 0.0.0.9004
 Authors@R: c(
-  person("Redha", "TIBA", role = "cre", email = "prenom.nom@insee.fr"),
-  person("Redha", "TIBA", role = "aut"),
+  person("Redha", "TIBA", role = c("aut", "cre"), email = "tibaredha@yahoo.fr"),
   person("azzedine", "BOULAOUCHE", role = "aut"),
-  person("xx", "yyy", role = "ctb"),
-  person(family = "Institut national de la statistique et des études économiques", role = "cph")
+  person("mimi", "amrane", role = "ctb"),
+  person(family = "Direction de la santé et de la population de la wilaya de djelfa", role = "cph")
   )         
-Description: maladie a declaration obligatoire.
+Description: package R model.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
