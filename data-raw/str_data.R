@@ -48,6 +48,7 @@ url <- "D:/R_prgramme/projects/yahiatiba/inst/extdata/chlef/str/chlef_e_lit.csv"
 write.csv(chlef_e_lit,url,row.names=FALSE)
 chlef_e_lit <- yahiatiba::read_ext("chlef/str/chlef_e_lit.csv")
 chlef_e_lit <- read.csv(chlef_e_lit)
+
 #### 3-medea ####
 eph_abcf_lit <- yahiatiba::read_ext("medea/str/eph_abcf_lit.csv")
 eph_abcf_lit <- read.csv(eph_abcf_lit)
