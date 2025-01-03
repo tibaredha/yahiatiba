@@ -117,9 +117,13 @@ library(roxygen2)
 
 # use_r() usethis::use_test() devtools::test() devtools::document() devtools::load_all(".")
 
+use_rmarkdown_template(template_name = "Worksheet1")
 
-
-
+# ✔ Setting active project to '/Users/desiree/Documents/New R Projects/testpackage'
+# ✔ Creating 'inst/rmarkdown/templates/worksheet1/skeleton/'
+# ✔ Writing 'inst/rmarkdown/templates/worksheet1/template.yaml'
+# ✔ Writing 'inst/rmarkdown/templates/worksheet1/skeleton/skeleton.Rmd'
+#
 
 
 

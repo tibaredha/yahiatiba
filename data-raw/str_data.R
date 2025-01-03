@@ -74,39 +74,58 @@ medea_e_lit <- yahiatiba::read_ext("./medea/str/medea_e_lit.csv")
 medea_e_lit <- read.csv(medea_e_lit)
 
 #### 4-djelfa ####
-eph_bi_lit <- yahiatiba::read_ext("djelfa/str/eph_bi_lit.csv")
+eph_bi_lit <- yahiatiba::read_ext("djelfa/str/eph/eph_bi_lit.csv")
 eph_bi_lit <- read.csv(eph_bi_lit)
-eph_ao_lit <- yahiatiba::read_ext("djelfa/str/eph_ao_lit.csv")
+eph_ao_lit <- yahiatiba::read_ext("djelfa/str/eph/eph_ao_lit.csv")
 eph_ao_lit <- read.csv(eph_ao_lit)
-eph_hbb_lit <- yahiatiba::read_ext("djelfa/str/eph_hbb_lit.csv")
+eph_hbb_lit <- yahiatiba::read_ext("djelfa/str/eph/eph_hbb_lit.csv")
 eph_hbb_lit <- read.csv(eph_hbb_lit)
-eph_dje_lit <- yahiatiba::read_ext("djelfa/str/eph_dje_lit.csv")
+eph_dje_lit <- yahiatiba::read_ext("djelfa/str/eph/eph_dje_lit.csv")
 eph_dje_lit <- read.csv(eph_dje_lit)
-eph_mi_lit <- yahiatiba::read_ext("djelfa/str/eph_mi_lit.csv")
+eph_mi_lit <- yahiatiba::read_ext("djelfa/str/eph/eph_mi_lit.csv")
 eph_mi_lit <- read.csv(eph_mi_lit)
-eph_ma_lit <- yahiatiba::read_ext("djelfa/str/eph_ma_lit.csv")
+eph_ma_lit <- yahiatiba::read_ext("djelfa/str/eph/eph_ma_lit.csv")
 eph_ma_lit <- read.csv(eph_ma_lit)
-eph_id_lit <- yahiatiba::read_ext("djelfa/str/eph_id_lit.csv")
+eph_id_lit <- yahiatiba::read_ext("djelfa/str/eph/eph_id_lit.csv")
 eph_id_lit <- read.csv(eph_id_lit)
-ehs_me_lit <- yahiatiba::read_ext("djelfa/str/ehs_me_lit.csv")
+
+ehs_me_lit <- yahiatiba::read_ext("djelfa/str/ehs/ehs_me_lit.csv")
 ehs_me_lit <- read.csv(ehs_me_lit)
-ehs_oph_lit <- yahiatiba::read_ext("djelfa/str/ehs_oph_lit.csv")
+ehs_oph_lit <- yahiatiba::read_ext("djelfa/str/ehs/ehs_oph_lit.csv")
 ehs_oph_lit <- read.csv(ehs_oph_lit)
-ehs_cac_lit <- yahiatiba::read_ext("djelfa/str/ehs_cac_lit.csv")
+ehs_cac_lit <- yahiatiba::read_ext("djelfa/str/ehs/ehs_cac_lit.csv")
 ehs_cac_lit <- read.csv(ehs_cac_lit)
+
+epsp_ao_lit <- yahiatiba::read_ext("djelfa/str/epsp/epsp_ao.csv")
+epsp_ao_lit <- read.csv(epsp_ao_lit)
+epsp_hbb_lit <- yahiatiba::read_ext("djelfa/str/epsp/epsp_hbb.csv")
+epsp_hbb_lit <- read.csv(epsp_hbb_lit)
+epsp_dje_lit <- yahiatiba::read_ext("djelfa/str/epsp/epsp_dje.csv")
+epsp_dje_lit <- read.csv(epsp_dje_lit)
+epsp_ma_lit <- yahiatiba::read_ext("djelfa/str/epsp/epsp_ma.csv")
+epsp_ma_lit <- read.csv(epsp_ma_lit)
+epsp_gt_lit <- yahiatiba::read_ext("djelfa/str/epsp/epsp_gt.csv")
+epsp_gt_lit <- read.csv(epsp_gt_lit)
+
 djelfa_e_lit <- dplyr::bind_rows(
-  #epsp_ao,epsp_hbb,epsp_dje,epsp_ma,epsp_gt,
   eph_ao_lit,eph_bi_lit,eph_hbb_lit,eph_dje_lit,eph_mi_lit,eph_ma_lit,eph_id_lit,
   ehs_me_lit,ehs_oph_lit,ehs_cac_lit)
+
+djelfa_epsp_lit <- dplyr::bind_rows(
+  epsp_ao_lit,epsp_hbb_lit,epsp_dje_lit,epsp_ma_lit,epsp_gt_lit)
+
 rm(
-  #epsp_ao,epsp_hbb,epsp_dje,epsp_ma,epsp_gt,
+  epsp_ao_lit,epsp_hbb_lit,epsp_dje_lit,epsp_ma_lit,epsp_gt_lit,
   eph_ao_lit,eph_bi_lit,eph_hbb_lit,eph_dje_lit,eph_mi_lit,eph_ma_lit,eph_id_lit,
   ehs_me_lit,ehs_oph_lit,ehs_cac_lit)
+
 djelfa_e_lit <- djelfa_e_lit %>% select(-c(ID))
-url <- "D:/R_prgramme/projects/yahiatiba/inst/extdata/djelfa/str/djelfa_e_lit.csv"
+url <- yahiatiba::read_ext("djelfa/str/djelfa_e_lit.csv")
+#url <- "D:/R_prgramme/projects/yahiatiba/inst/extdata/djelfa/str/djelfa_e_lit.csv"
 write.csv(djelfa_e_lit,url,row.names=FALSE)
 djelfa_e_lit <- yahiatiba::read_ext("./djelfa/str/djelfa_e_lit.csv")
 djelfa_e_lit <- read.csv(djelfa_e_lit)
+
 #### 5-laghouat ####  probleme données ?????
 
 eph_lgt_lit <- yahiatiba::read_ext("laghouat/str/eph_lgt_lit.csv")
