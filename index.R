@@ -333,6 +333,42 @@ carte_w_c_pv (df,'Msila')
 
 
 
+# materiel
+mat <- yahiatiba::mat
+
+wil <- "chlef"
+mat1 <- mat %>% dplyr::filter(WILAYA==wil)
+mat_chlef (mat1,wil)
+
+epsp <- unique(mat1$STRUCTURE)
+for (i in epsp) {
+  cat("\\newpage")
+  cat(paste0("## Structure Sanitaire : ",i))
+  print(knitr::kable(
+    mat_repartition(mat,wil,i),  #mat_repartition (mat,wil,"EPH_AIN_MERANE")
+    caption = paste0("Structure Sanitaire ",i)
+  ))
+  cat('\n\n<!-- -->\n\n')
+}
+
+wil <- "aindefla"
+mat1 <- mat %>% dplyr::filter(WILAYA==wil)
+mat_aindefla (mat1,wil)
+
+wil <- "djelfa"
+mat1 <- mat %>% dplyr::filter(WILAYA==wil)
+mat_djelfa (mat1,wil)
+
+
+wil <- "laghouat"
+mat1 <- mat %>% dplyr::filter(WILAYA==wil)
+mat_laghouat (mat1,wil)
+
+wil <- "msila"
+mat1 <- mat %>% dplyr::filter(WILAYA==wil)
+mat_msila (mat1,wil)
+
+
 
 
 
