@@ -1,4 +1,4 @@
-#' Title mat creance
+#' mat creance
 #'
 #' @param wil value
 #' @param creance value

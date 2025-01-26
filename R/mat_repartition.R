@@ -1,4 +1,4 @@
-#'Title mat_repartition
+#' mat_repartition
 #'
 #' @param mat value
 #' @param wil value

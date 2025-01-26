@@ -2,7 +2,7 @@
 % Please edit documentation in R/mat_djelfa.R
 \name{mat_djelfa}
 \alias{mat_djelfa}
-\title{Title mat_djelfa}
+\title{mat_djelfa}
 \usage{
 mat_djelfa(mat, wil)
 }
@@ -15,7 +15,7 @@ mat_djelfa(mat, wil)
 value
 }
 \description{
-Title mat_djelfa
+mat_djelfa
 }
 \examples{
 mat_djelfa

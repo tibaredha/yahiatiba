@@ -2,7 +2,7 @@
 % Please edit documentation in R/mat_creance.R
 \name{mat_creance}
 \alias{mat_creance}
-\title{Title mat creance}
+\title{mat creance}
 \usage{
 mat_creance(wil, creance)
 }
@@ -15,7 +15,7 @@ mat_creance(wil, creance)
 value
 }
 \description{
-Title mat creance
+mat creance
 }
 \examples{
 mat_creance (wil,creance)

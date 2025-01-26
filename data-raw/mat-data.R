@@ -2,11 +2,11 @@
 
 # methode 1 inst/extdata
 
-# mat base
+# mat base ----
 mat0 <- yahiatiba::read_ext("mat.csv")
 mat0 <- read.csv(mat0,encoding = "UTF8")
 
-# function base
+# function base ----
 mat1 <- function(idw,wilaya,etablissement) {
   file0 <- paste0(wilaya,"/mat/",etablissement,".csv")
   file1 <- yahiatiba::read_ext(file0)
@@ -31,7 +31,7 @@ creance <- function(idw,wilaya,etablissement) {
   return(eta0)
 }
 
-# wilaya de chlef
+# wilaya de chlef ----
 idw=2
 wilaya="chlef"
 eta1 <- mat1(idw,wilaya,"EHS_TENES")
@@ -130,7 +130,7 @@ rm(creance1,
   creance15)
 
 
-# wilaya de aindefla
+# wilaya de aindefla ----
 idw=44
 wilaya="aindefla"
 
@@ -188,7 +188,7 @@ rm(creance1,
    creance7,
    creance8)
 
-# wilaya de djelfa
+# wilaya de djelfa ----
 idw <- 17
 wilaya <- "djelfa"
 eta1 <- mat1(idw,wilaya,"eph_aioussera")
@@ -282,7 +282,7 @@ rm(creance1,
    creance13,
    creance14)
 
-# wilaya de msila
+# wilaya de msila ----
 idw=28
 wilaya="msila"
 
@@ -377,7 +377,7 @@ rm(creance1,
     creance14)
 
 
-# wilaya de laghouat
+# wilaya de laghouat ----
 idw=3
 wilaya="laghouat"
 eta1 <- mat1(idw,wilaya,"ehs_aflou")
@@ -502,8 +502,8 @@ usethis::use_data(creance, overwrite = TRUE)
 rm(creance)
 
 
+# exemple ----
 
-#######################
 devtools::load_all(".")
 
 mat <- yahiatiba::mat
@@ -511,9 +511,6 @@ view(mat)
 creance <- yahiatiba::creance
 view(creance)
 
-
-#####################
-# creance
 wilaya="msila"
 mat_creance (wilaya,creance)
 
