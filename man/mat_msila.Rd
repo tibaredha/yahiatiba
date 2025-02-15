@@ -2,7 +2,7 @@
 % Please edit documentation in R/mat_msila.R
 \name{mat_msila}
 \alias{mat_msila}
-\title{Title mat_msila}
+\title{mat_msila}
 \usage{
 mat_msila(mat, wil)
 }
@@ -15,7 +15,7 @@ mat_msila(mat, wil)
 value
 }
 \description{
-Title mat_msila
+mat_msila
 }
 \examples{
 mat_msila

@@ -2,7 +2,7 @@
 % Please edit documentation in R/mat_chlef.R
 \name{mat_chlef}
 \alias{mat_chlef}
-\title{Title mat_chlef}
+\title{mat_chlef}
 \usage{
 mat_chlef(mat, wil)
 }
@@ -15,7 +15,7 @@ mat_chlef(mat, wil)
 value
 }
 \description{
-Title mat_chlef
+mat_chlef
 }
 \examples{
 mat_chlef

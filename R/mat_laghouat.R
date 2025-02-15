@@ -1,4 +1,4 @@
-#' Title mat_laghouat
+#' mat_laghouat
 #'
 #' @param mat value
 #' @param wil value

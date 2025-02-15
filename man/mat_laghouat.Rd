@@ -2,7 +2,7 @@
 % Please edit documentation in R/mat_laghouat.R
 \name{mat_laghouat}
 \alias{mat_laghouat}
-\title{Title mat_laghouat}
+\title{mat_laghouat}
 \usage{
 mat_laghouat(mat, wil)
 }
@@ -15,7 +15,7 @@ mat_laghouat(mat, wil)
 value
 }
 \description{
-Title mat_laghouat
+mat_laghouat
 }
 \examples{
 mat_laghouat

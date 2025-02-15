@@ -1,4 +1,4 @@
-#' Title mat_msila
+#' mat_msila
 #'
 #' @param mat value
 #' @param wil value

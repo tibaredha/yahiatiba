@@ -1,4 +1,4 @@
-#' Title mat_region
+#' mat_region
 #'
 #' @param mat value
 #' @param wil value

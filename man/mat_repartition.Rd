@@ -2,7 +2,7 @@
 % Please edit documentation in R/mat_repartition.R
 \name{mat_repartition}
 \alias{mat_repartition}
-\title{Title mat_repartition}
+\title{mat_repartition}
 \usage{
 mat_repartition(mat, wil, str)
 }
@@ -17,7 +17,7 @@ mat_repartition(mat, wil, str)
 value
 }
 \description{
-Title mat_repartition
+mat_repartition
 }
 \examples{
 mat_repartition (mat,wil,str)

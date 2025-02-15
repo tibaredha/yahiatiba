@@ -2,7 +2,7 @@
 % Please edit documentation in R/mat_aindefla.R
 \name{mat_aindefla}
 \alias{mat_aindefla}
-\title{Title mat_aindefla}
+\title{mat_aindefla}
 \usage{
 mat_aindefla(mat, wil)
 }
@@ -15,7 +15,7 @@ mat_aindefla(mat, wil)
 value
 }
 \description{
-Title mat_aindefla
+mat_aindefla
 }
 \examples{
 mat_aindefla

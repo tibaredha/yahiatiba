@@ -5,7 +5,8 @@ library(usethis)
 library(devtools)
 library(roxygen2)
 
-
+##    tree.com //f //a   in git explore
+# precomit as add
 
 # library(bannerCommenter)
 # txt <- "This is the text of a comment"

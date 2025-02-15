@@ -2,7 +2,7 @@
 % Please edit documentation in R/mat_region.R
 \name{mat_region}
 \alias{mat_region}
-\title{Title mat_region}
+\title{mat_region}
 \usage{
 mat_region(mat, wil)
 }
@@ -15,7 +15,7 @@ mat_region(mat, wil)
 value
 }
 \description{
-Title mat_region
+mat_region
 }
 \examples{
 mat_region
