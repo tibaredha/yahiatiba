@@ -1,6 +1,5 @@
 
 # yahiatiba <a href="https://tibaredha.com"><img src="man/figures/logo.png" align="right" height="138" alt="yahiatiba website" /></a>
-# tibaredha
 
 
 
