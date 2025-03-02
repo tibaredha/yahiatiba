@@ -127,5 +127,20 @@ use_rmarkdown_template(template_name = "Worksheet1")
 # ✔ Writing 'inst/rmarkdown/templates/worksheet1/skeleton/skeleton.Rmd'
 #
 
+# git hub action
+use_github_action()
+# use one of 3 choices to create yaml file in .github/workflows
+# https://github.com/r-lib/actions/tree/v2/examples
+# check-release     - A simple CI workflow to check with the release version of R.
+# check-standard    - A standard CI workflow to check with the release version of R on the three major OSs.
+# check-full        - A more complex CI workflow
+# test-coverage     - Run covr::codecov() on an R package.
+# lint              - Run lintr::lint_package() on an R package.
+# pr-commands       - Adds /document and /style commands for pull requests.
+# pkgdown           - Build a pkgdown site for an R package and deploy it to GitHub Pages or Cloudflare Pages.
+# document          - Run roxygen2::roxygenise() on an R package.
+# style             - Run styler::style_pkg() on an R package.
+# usethis::use_github_action("check-release")
+
 
 
