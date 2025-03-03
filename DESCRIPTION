@@ -32,3 +32,5 @@ Imports:
     tidyr,
     tidyverse
 VignetteBuilder: knitr
+URL: https://github.com/tibaredha/yahiatiba
+BugReports: https://github.com/tibaredha/yahiatiba/issues
