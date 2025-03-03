@@ -127,8 +127,8 @@ use_rmarkdown_template(template_name = "Worksheet1")
 # ✔ Writing 'inst/rmarkdown/templates/worksheet1/skeleton/skeleton.Rmd'
 #
 
-# git hub action
-use_github_action()
+# git hub action ----
+# use_github_action()
 # use one of 3 choices to create yaml file in .github/workflows
 # https://github.com/r-lib/actions/tree/v2/examples
 # check-release     - A simple CI workflow to check with the release version of R.
@@ -142,5 +142,8 @@ use_github_action()
 # style             - Run styler::style_pkg() on an R package.
 # usethis::use_github_action("check-release")
 
-
+# use_github_links ----
+# usethis::use_github_links()
+# URL: https://github.com/tibaredha/yahiatiba
+# BugReports: https://github.com/tibaredha/yahiatiba/issues
 

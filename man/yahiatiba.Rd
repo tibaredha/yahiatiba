@@ -60,6 +60,14 @@ These functions are dedicated to the map layout design.
 }
 }
 
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/tibaredha/yahiatiba}
+  \item Report bugs at \url{https://github.com/tibaredha/yahiatiba/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Redha TIBA \email{tibaredha@yahoo.fr}
 
